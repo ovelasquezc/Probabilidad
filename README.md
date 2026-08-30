@@ -11,6 +11,16 @@ Material para estudiantes de la Escuela Profesional de Matemática de la Univers
 | --- | --- | --- |
 | 1 | [Modelos, probabilidad, variables y leyes](materiales/semana-01/01-notas-semana-01.pdf) | [Lista de ejercicios 1](materiales/semana-01/02-lista-ejercicios-semana-01.pdf) |
 
+También se ofrece una edición consolidada para planificar el semestre completo:
+
+- [Notas, tomo I: semanas 1–7](materiales/curso-completo/01-notas-tomo-I.pdf)
+- [Notas, tomo II: semanas 8–14](materiales/curso-completo/02-notas-tomo-II.pdf)
+- [Cuaderno de prácticas: semanas 1–14](materiales/curso-completo/03-cuaderno-practicas.pdf)
+
+Las versiones semanales podrán reemplazar o ampliar estas separatas conforme avance
+el curso. El repositorio público no contiene solucionarios, rúbricas ni evaluaciones
+no administradas.
+
 ## Organización del curso
 
 Cada semana comprende dos sesiones de teoría y una sesión práctica. Las notas incluyen las demostraciones desarrolladas en el curso y, cuando corresponde, anexos para argumentos técnicos que no se completan en la pizarra.
@@ -30,4 +40,3 @@ Las listas distinguen los ejercicios previstos para el aula, el trabajo autónom
 - MIT OpenCourseWare, 18.175 *Theory of Probability*, primavera de 2014, selección de notas y problemas.
 
 Los libros y materiales originales no se redistribuyen en este repositorio. Las separatas son una elaboración para CM4H1 y no una traducción literal de las fuentes.
-
