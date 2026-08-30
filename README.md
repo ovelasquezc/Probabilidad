@@ -10,16 +10,21 @@ Material para estudiantes de la Escuela Profesional de Matemática de la Univers
 | Semana | Notas de teoría | Práctica |
 | --- | --- | --- |
 | 1 | [Modelos, probabilidad, variables y leyes](materiales/semana-01/01-notas-semana-01.pdf) | [Lista de ejercicios 1](materiales/semana-01/02-lista-ejercicios-semana-01.pdf) |
+| 2 | [Notas de la semana 2](materiales/semana-02/01-notas-semana-02.pdf) | [Práctica de la semana 2](materiales/semana-02/02-practica-semana-02.pdf) |
+| 3 | [Notas de la semana 3](materiales/semana-03/01-notas-semana-03.pdf) | [Práctica de la semana 3](materiales/semana-03/02-practica-semana-03.pdf) |
+| 4 | [Notas de la semana 4](materiales/semana-04/01-notas-semana-04.pdf) | [Práctica de la semana 4](materiales/semana-04/02-practica-semana-04.pdf) |
+| 5 | [Notas de la semana 5](materiales/semana-05/01-notas-semana-05.pdf) | [Práctica de la semana 5](materiales/semana-05/02-practica-semana-05.pdf) |
+| 6 | [Notas de la semana 6](materiales/semana-06/01-notas-semana-06.pdf) | [Práctica de la semana 6](materiales/semana-06/02-practica-semana-06.pdf) |
+| 7 | [Notas de la semana 7](materiales/semana-07/01-notas-semana-07.pdf) | [Práctica de la semana 7](materiales/semana-07/02-practica-semana-07.pdf) |
+| 8 | [Notas de la semana 8](materiales/semana-08/01-notas-semana-08.pdf) | [Práctica de la semana 8](materiales/semana-08/02-practica-semana-08.pdf) |
+| 9 | [Notas de la semana 9](materiales/semana-09/01-notas-semana-09.pdf) | [Práctica de la semana 9](materiales/semana-09/02-practica-semana-09.pdf) |
+| 10 | [Notas de la semana 10](materiales/semana-10/01-notas-semana-10.pdf) | [Práctica de la semana 10](materiales/semana-10/02-practica-semana-10.pdf) |
+| 11 | [Notas de la semana 11](materiales/semana-11/01-notas-semana-11.pdf) | [Práctica de la semana 11](materiales/semana-11/02-practica-semana-11.pdf) |
+| 12 | [Notas de la semana 12](materiales/semana-12/01-notas-semana-12.pdf) | [Práctica de la semana 12](materiales/semana-12/02-practica-semana-12.pdf) |
+| 13 | [Notas de la semana 13](materiales/semana-13/01-notas-semana-13.pdf) | [Práctica de la semana 13](materiales/semana-13/02-practica-semana-13.pdf) |
+| 14 | [Notas de la semana 14](materiales/semana-14/01-notas-semana-14.pdf) | [Práctica de la semana 14](materiales/semana-14/02-practica-semana-14.pdf) |
 
-También se ofrece una edición consolidada para planificar el semestre completo:
-
-- [Notas, tomo I: semanas 1–7](materiales/curso-completo/01-notas-tomo-I.pdf)
-- [Notas, tomo II: semanas 8–14](materiales/curso-completo/02-notas-tomo-II.pdf)
-- [Cuaderno de prácticas: semanas 1–14](materiales/curso-completo/03-cuaderno-practicas.pdf)
-
-Las versiones semanales podrán reemplazar o ampliar estas separatas conforme avance
-el curso. El repositorio público no contiene solucionarios, rúbricas ni evaluaciones
-no administradas.
+Los tomos consolidados se conservan en `materiales/curso-completo` únicamente como edición auxiliar. Las carpetas semanales son la unidad de actualización y publicación.
 
 ## Organización del curso
 
