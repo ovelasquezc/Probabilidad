@@ -1,0 +1,18 @@
+.DS_Store
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+tmp/
+
+# Material reservado del docente
+*solucion*
+*Solucion*
+*docente*
+*Docente*
+*prueba_entrada*
+*Prueba_entrada*
+*prueba-entrada*
+*Prueba-entrada*
+
