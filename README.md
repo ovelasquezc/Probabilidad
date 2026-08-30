@@ -5,6 +5,10 @@ Material para estudiantes de la Escuela Profesional de Matemática de la Univers
 **Docente:** Oswaldo Velásquez Castañón  
 **Periodo académico:** 2026-2
 
+## Sílabo
+
+[Sílabo de Teoría de la Probabilidad CM4H1 · 2026-2](silabo/CM4H1_Silabo_2026_2.pdf)
+
 ## Material disponible
 
 | Semana | Notas de teoría | Práctica |
