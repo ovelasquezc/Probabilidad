@@ -1,4 +1,5 @@
 # Semana 8
 
-- Notas de las dos sesiones teóricas.
-- Lista para la sesión práctica.
+- Dos sesiones teóricas.
+- Práctica de 120 minutos.
+- Las evaluaciones, guías docentes y soluciones permanecen reservadas.

@@ -1,4 +1,5 @@
 # Semana 13
 
-- Notas de las dos sesiones teóricas.
-- Lista para la sesión práctica.
+- Dos sesiones teóricas.
+- Trabajo autónomo (la sesión práctica es PC).
+- Las evaluaciones, guías docentes y soluciones permanecen reservadas.
