@@ -6,6 +6,7 @@
 
 ## Versión sonora accesible
 
+- [Abrir el sitio accesible](https://ovelasquezc.github.io/Probabilidad/)
 - [Portada HTML accesible](accesibilidad/html/index.html)
 - [Paquete completo para descargar](Semana_01_piloto_accesible.zip)
 

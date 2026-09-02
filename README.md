@@ -6,6 +6,10 @@ Material para estudiantes de la Escuela Profesional de Matemática de la Univers
 **Correo:** ovelasquez@uni.edu.pe  
 **Periodo académico:** 2026-2
 
+## Sitio accesible
+
+[Abrir el material sonoro accesible de la semana 1](https://ovelasquezc.github.io/Probabilidad/)
+
 ## Sílabo
 
 [Sílabo de Teoría de la Probabilidad CM4H1 · 2026-2](silabo/CM4H1_Silabo_2026_2.pdf)
