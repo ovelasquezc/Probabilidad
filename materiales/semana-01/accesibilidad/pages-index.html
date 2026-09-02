@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CM4H1 · Material accesible · Semana 1</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; margin: 0; }
+    header, main, footer { width: min(76rem, 92%); margin-inline: auto; }
+    header { padding: 3rem 0 2rem; border-bottom: .35rem solid #7b001c; }
+    h1 { line-height: 1.15; max-width: 22ch; }
+    h2 { line-height: 1.25; }
+    main { padding: 2rem 0 3rem; }
+    .intro { max-width: 70ch; font-size: 1.1rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; margin: 2rem 0; }
+    .card { border: 1px solid #a49a9d; border-radius: .6rem; padding: 1.2rem; }
+    .card a, .download { display: inline-block; font-weight: 700; }
+    a { color: #7b001c; }
+    a:focus { outline: 3px solid #d39b00; outline-offset: 4px; }
+    .download { padding: .8rem 1rem; border-radius: .35rem; background: #7b001c; color: white; text-decoration: none; }
+    .note { border-left: .35rem solid #7b001c; padding: .8rem 1rem; background: #f4ecee; color: #211d1e; }
+    footer { border-top: 1px solid #a49a9d; padding: 1.5rem 0 3rem; }
+    .skip { position: absolute; left: -10000px; }
+    .skip:focus { position: fixed; left: 1rem; top: 1rem; background: white; color: black; padding: .75rem; z-index: 2; }
+    @media (prefers-color-scheme: dark) {
+      a { color: #ff9db2; }
+      .download { color: white; }
+      .note { background: #38252a; color: white; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header>
+    <p>Universidad Nacional de Ingeniería · Escuela Profesional de Matemática</p>
+    <h1>Teoría de la Probabilidad CM4H1</h1>
+    <p>Material sonoro accesible · Semana 1 · Periodo 2026-2</p>
+  </header>
+  <main id="contenido">
+    <p class="intro">Pistas comentadas para repasar definiciones, demostraciones y ejemplos. Cada página permite escuchar por temas, descargar los audios y consultar la transcripción. Las fórmulas principales se presentan también en MathML con una lectura verbal sugerida.</p>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Sesión 1</h2>
+        <p>Modelos, borelianos, continuidad, condicionamiento y Bayes.</p>
+        <a href="html/sesion-01.html">Abrir las 9 pistas de la sesión 1</a>
+      </section>
+      <section class="card">
+        <h2>Sesión 2</h2>
+        <p>Sistemas de Dynkin, variables, leyes y funciones de distribución.</p>
+        <a href="html/sesion-02.html">Abrir las 9 pistas de la sesión 2</a>
+      </section>
+      <section class="card">
+        <h2>Práctica dirigida</h2>
+        <p>Enunciados narrados, orientación y pausas sugeridas.</p>
+        <a href="html/practica.html">Abrir la práctica sonora</a>
+      </section>
+      <section class="card">
+        <h2>Prueba de entrada</h2>
+        <p>Instrucciones y seis problemas diagnósticos en pistas separadas.</p>
+        <a href="html/prueba-entrada.html">Abrir la prueba de entrada accesible</a>
+      </section>
+    </div>
+
+    <p><a class="download" href="Semana_01_piloto_accesible.zip" download>Descargar el paquete completo</a></p>
+
+    <aside class="note" aria-label="Nota sobre el piloto">
+      <strong>Piloto en validación.</strong> La velocidad, la voz y las convenciones de pronunciación matemática se ajustarán con la retroalimentación del estudiante.
+    </aside>
+  </main>
+  <footer>
+    <p><strong>Docente:</strong> Oswaldo Velásquez Castañón · <a href="mailto:ovelasquez@uni.edu.pe">ovelasquez@uni.edu.pe</a></p>
+  </footer>
+</body>
+</html>

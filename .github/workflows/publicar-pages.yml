@@ -1,0 +1,57 @@
+name: Publicar material accesible en GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "materiales/semana-01/accesibilidad/**"
+      - "materiales/semana-01/Semana_01_piloto_accesible.zip"
+      - ".github/workflows/publicar-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener el repositorio
+        uses: actions/checkout@v6
+
+      - name: Preparar únicamente el material público
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_dir="materiales/semana-01/accesibilidad"
+          mkdir -p _site
+          cp "$source_dir/pages-index.html" _site/index.html
+          cp "$source_dir/README.md" _site/README.md
+          cp -R "$source_dir/html" _site/html
+          cp -R "$source_dir/sesion-01" _site/sesion-01
+          cp -R "$source_dir/sesion-02" _site/sesion-02
+          cp -R "$source_dir/practica" _site/practica
+          cp -R "$source_dir/prueba-entrada" _site/prueba-entrada
+          cp materiales/semana-01/Semana_01_piloto_accesible.zip _site/
+          touch _site/.nojekyll
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Cargar el sitio estático
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4
