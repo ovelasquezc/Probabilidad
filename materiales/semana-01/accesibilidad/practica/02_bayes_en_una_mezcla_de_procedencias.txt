@@ -1,0 +1,15 @@
+Práctica dirigida, ejercicio cinco.
+
+Dos líneas, L sub uno y L sub dos, aportan el setenta por ciento y el treinta por ciento de las piezas. Las probabilidades de defecto son uno por ciento y cuatro por ciento, respectivamente. Una pieza se elige según esas proporciones. Denote por D el evento de que la pieza sea defectuosa.
+
+Parte a. Construya una tabla de probabilidades conjuntas de procedencia y estado, defecto o no defecto.
+
+Parte b. Calcule probabilidad de D; probabilidad de L sub dos condicionada a D; y probabilidad de L sub dos condicionada a D complemento.
+
+Parte c. Compare probabilidad de D condicionada a L sub dos con probabilidad de L sub dos condicionada a D. Explique qué información cambia en cada pregunta.
+
+Pausa sugerida: veinte minutos.
+
+Pistas, sin solución completa. La tabla tiene dos filas de procedencia y dos columnas de estado. Cada probabilidad conjunta se obtiene multiplicando la proporción de la línea por la probabilidad condicional del estado dentro de esa línea. Compruebe que las cuatro celdas sumen uno. En cada condicionamiento, nombre en lenguaje natural el evento preguntado y la información conocida.
+
+Fin de la pista dos.

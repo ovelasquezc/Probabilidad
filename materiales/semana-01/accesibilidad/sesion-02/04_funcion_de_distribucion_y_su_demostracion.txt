@@ -1,0 +1,25 @@
+Sesión dos, pista cuatro. Función de distribución.
+
+Para cada real x definimos primero el evento A sub x igual a «X menor o igual que x». Estos eventos crecen cuando x aumenta. La función de distribución de X es F sub X de x igual a probabilidad de X menor o igual que x. En este curso usaremos siempre menor o igual.
+
+Teorema seis. La función F sub X es no decreciente, es continua por la derecha y tiende a cero cuando x tiende a menos infinito y a uno cuando x tiende a más infinito. Además, el límite de F sub X de t cuando t se acerca a x por la izquierda es la probabilidad de X estrictamente menor que x. La probabilidad de X igual a x es el salto: F sub X de x menos su límite por la izquierda.
+
+Demostración de la monotonía. Si x es menor o igual que y, el evento X menor o igual que x está contenido en el evento X menor o igual que y. La monotonía de la probabilidad da F de x menor o igual que F de y.
+
+Demostración de los límites. Como X toma valores reales finitos, los eventos X menor o igual que n crecen hacia omega cuando n recorre los enteros positivos. La continuidad desde abajo da que F de n tiende a uno. Los eventos X menor o igual que menos n decrecen al vacío. La continuidad desde arriba da que F de menos n tiende a cero. La monotonía extiende estos límites desde los enteros a todos los reales.
+
+Demostración de la continuidad por la derecha. Sea x sub n una sucesión que decrece hacia x. Los eventos X menor o igual que x sub n decrecen hacia el evento X menor o igual que x. Por continuidad desde arriba, F de x sub n tiende a F de x.
+
+Demostración del límite por la izquierda. Sea x sub n una sucesión que crece hacia x y satisface x sub n menor que x. Los eventos X menor o igual que x sub n crecen hacia el evento X estrictamente menor que x. La continuidad desde abajo da que el límite de F de x sub n es probabilidad de X menor que x.
+
+Finalmente, el evento X menor o igual que x es la unión disjunta de X menor que x con X igual a x. Restar sus probabilidades muestra que la masa en x es F de x menos F de x por la izquierda. Fin de la demostración.
+
+Corolario siete, probabilidades de intervalos. Para a menor que b: probabilidad de a menor que X y X menor o igual que b es F de b menos F de a. Probabilidad de a menor o igual que X y X menor o igual que b es F de b menos F de a por la izquierda. Probabilidad de a menor que X y X menor que b es F de b por la izquierda menos F de a. Probabilidad de a menor o igual que X y X menor que b es F de b por la izquierda menos F de a por la izquierda.
+
+Cada fórmula resulta de una descomposición disjunta. Por ejemplo, el evento X menor o igual que b es la unión disjunta de X menor que a y a menor o igual que X menor o igual que b. Restar produce la segunda fórmula.
+
+Consecuencia. F es continua en x si y solo si la probabilidad de X igual a x es cero. Una función de distribución continua no tiene átomos. Esto no basta para afirmar que posee densidad.
+
+Pregunta de control. ¿Por qué aproximar x desde la izquierda produce el evento X estrictamente menor que x y no el evento X menor o igual que x?
+
+Fin de la pista cuatro.

@@ -1,0 +1,25 @@
+Sesión dos, pista siete. Demostración complementaria del teorema de caracterización.
+
+Enunciado. Sea F una función de la recta en el intervalo de cero a uno. Supongamos que F es no decreciente, continua por la derecha y que sus límites en menos infinito y más infinito son cero y uno. Entonces existe una única probabilidad mu en los borelianos de la recta tal que mu del intervalo desde menos infinito hasta x, con x incluido, es F de x.
+
+Demostración de existencia. Tomamos como espacio de partida el intervalo abierto de cero a uno con probabilidad uniforme. Para cada u entre cero y uno definimos Q de u como el ínfimo del conjunto de números x tales que F de x es mayor o igual que u.
+
+Primero justificamos que Q de u es un número real. El conjunto no es vacío porque F tiende a uno en más infinito y u es menor que uno. Está acotado inferiormente porque F tiende a cero en menos infinito y u es positivo.
+
+Segundo, mostramos que el nivel se alcanza en el ínfimo. Sea a igual a Q de u. Por la propiedad del ínfimo, para cada n existe un punto y sub n menor que a más uno dividido entre n con F de y sub n mayor o igual que u. Como F es no decreciente, F de a más uno dividido entre n también es mayor o igual que u. Al hacer n tender a infinito, los puntos a más uno dividido entre n decrecen hacia a. La continuidad por la derecha da F de a mayor o igual que u.
+
+Tercero, probamos la equivalencia clave: Q de u menor o igual que x si y solo si u menor o igual que F de x.
+
+Supongamos Q de u menor o igual que x. Acabamos de probar que F de Q de u es mayor o igual que u. Por monotonía, F de x es mayor o igual que F de Q de u, y por tanto mayor o igual que u.
+
+En sentido inverso, si u es menor o igual que F de x, entonces x pertenece al conjunto cuyo ínfimo define Q. En consecuencia, Q de u es menor o igual que x.
+
+La equivalencia muestra que la preimagen del intervalo menos infinito hasta x mediante Q es el conjunto de u menores o iguales que F de x. Es un intervalo boreliano. Por el criterio de semirrectas, Q es medible. Además, como U es uniforme, la probabilidad de Q de U menor o igual que x es la longitud del intervalo desde cero hasta F de x, igual a F de x. La ley de Q es la probabilidad buscada.
+
+Demostración de unicidad. Supongamos que mu y nu producen la misma F. Definimos D como la colección de borelianos C para los que mu de C es igual a nu de C. Esta familia contiene la recta. Es cerrada bajo complementos porque ambas probabilidades tienen masa total uno. Es cerrada bajo uniones disjuntas por la aditividad de ambas medidas. Por tanto D es un sistema de Dynkin.
+
+D contiene todas las semirrectas menos infinito hasta x porque mu y nu tienen la misma F. Esas semirrectas, junto con la recta, forman un sistema pi que genera los borelianos. El teorema pi lambda implica que D contiene todos los borelianos. Mu y nu son iguales. Fin de la demostración.
+
+Pregunta de control. Identifique el punto exacto donde se usa la continuidad por la derecha y el punto exacto donde se usa el teorema pi lambda.
+
+Fin de la pista siete.

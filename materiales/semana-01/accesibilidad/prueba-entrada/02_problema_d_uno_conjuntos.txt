@@ -1,0 +1,9 @@
+Problema D uno. Conjuntos y razonamiento. Tres puntos diagnósticos.
+
+Sean A, B y C subconjuntos de un universo omega.
+
+Parte a. Escriba el complemento de A unión B usando complementos e intersección.
+
+Parte b. Demuestre, mediante pertenencia de un elemento, que A intersección abre paréntesis B unión C cierra paréntesis es igual a abre paréntesis A intersección B cierra paréntesis unión abre paréntesis A intersección C cierra paréntesis.
+
+Fin del problema D uno.

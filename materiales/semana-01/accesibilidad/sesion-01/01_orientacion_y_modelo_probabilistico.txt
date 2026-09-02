@@ -1,0 +1,21 @@
+Teoría de la Probabilidad, semana uno, sesión uno. Modelos y probabilidad.
+
+Esta pista presenta los objetivos y la regla de trabajo que usaremos en los ejemplos.
+
+Comenzamos con la frase de Bruno de Finetti: «La probabilità non esiste». Puede traducirse como «la probabilidad no existe». La frase no niega que podamos desarrollar una teoría matemática rigurosa. Nos obliga a preguntar qué significan los números de probabilidad cuando aplicamos los axiomas a una situación real. Los axiomas permiten deducir resultados. La elección del espacio, de los eventos y de la probabilidad pertenece al trabajo de modelización y debe justificarse.
+
+En cada ejemplo seguiremos este orden. Primero, describir el experimento y el conjunto de resultados posibles. Segundo, especificar qué conjuntos consideramos eventos y qué probabilidad usamos. Tercero, traducir cada pregunta del lenguaje natural a un evento. Solo después efectuaremos cálculos. En esta sesión no introduciremos variables aleatorias cuando los eventos sean suficientes.
+
+Ejemplo: se lanza dos veces una moneda. Se registra, en orden, cruz mediante cero y cara mediante uno. Un resultado es un par. El espacio omega contiene los cuatro resultados: cero cero; cero uno; uno cero; y uno uno. La sigma álgebra es el conjunto de todos los subconjuntos de omega. Asignamos probabilidad un cuarto a cada resultado. Esta última decisión expresa que los lanzamientos son equilibrados e independientes.
+
+La pregunta «¿cuántas caras aparecieron?» permite distinguir tres eventos. A sub cero: ninguna cara, que contiene solo el resultado cero cero. A sub uno: exactamente una cara, que contiene cero uno y uno cero. A sub dos: exactamente dos caras, que contiene solo uno uno. Por aditividad, las probabilidades son, respectivamente, un cuarto, un medio y un cuarto. Los posibles conteos son cero, uno y dos, pero no son equiprobables. Asignar un tercio a cada conteo produciría otro modelo.
+
+Supongamos ahora que sabemos que apareció por lo menos una cara. La información disponible es el evento H, unión de A sub uno con A sub dos. Contiene tres resultados: cero uno, uno cero y uno uno. Su probabilidad es tres cuartos. La pregunta «¿aparecieron dos caras?» corresponde al evento A sub dos. Más adelante calcularemos su probabilidad condicionada a H.
+
+Definición. Una sigma álgebra efe sobre omega es una familia de subconjuntos que contiene a omega, es cerrada bajo complementos y es cerrada bajo uniones numerables. Un espacio de probabilidad es una terna: omega, efe y P. La función P asigna a cada evento un número entre cero y uno, asigna uno al espacio completo y es numerablemente aditiva sobre sucesiones de eventos disjuntos.
+
+Un resultado es un elemento omega minúscula del espacio omega. Un evento es un miembro A de la sigma álgebra efe. La probabilidad se aplica al evento A. Sin la probabilidad, el par formado por omega y efe se llama espacio medible.
+
+Pregunta de control. En el ejemplo de las dos monedas, explique por qué «exactamente una cara» es un evento con dos resultados y por qué su probabilidad no es un tercio. Detenga aquí el audio si desea responder.
+
+Fin de la pista uno.

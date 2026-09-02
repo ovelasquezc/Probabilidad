@@ -1,0 +1,21 @@
+Sesión uno, pista ocho. Reconstrucción de Bayes mediante una tabla.
+
+Consideremos dos líneas de producción. La línea uno aporta setenta por ciento de las piezas y tiene uno por ciento de defectuosas. La línea dos aporta treinta por ciento y tiene cuatro por ciento de defectuosas.
+
+Construimos una tabla de cuatro celdas. La celda línea uno y defecto tiene probabilidad cero punto setenta por cero punto cero uno, igual a cero punto cero cero siete. La celda línea uno y no defecto tiene probabilidad cero punto setenta por cero punto noventa y nueve, igual a cero punto seiscientos noventa y tres.
+
+La celda línea dos y defecto tiene probabilidad cero punto treinta por cero punto cero cuatro, igual a cero punto cero doce. La celda línea dos y no defecto tiene probabilidad cero punto treinta por cero punto noventa y seis, igual a cero punto doscientos ochenta y ocho. Las cuatro celdas suman uno.
+
+Pregunta uno: ¿cuál es la probabilidad de defecto? Sumamos las dos celdas de la columna defecto. Cero punto cero cero siete más cero punto cero doce es cero punto cero diecinueve. La probabilidad total de defecto es uno punto nueve por ciento.
+
+Pregunta dos: si la pieza es defectuosa, ¿cuál es la probabilidad de que proceda de la línea dos? La información restringe la tabla a la columna defecto. Dentro de esa columna, la celda favorable tiene masa cero punto cero doce y la masa total es cero punto cero diecinueve. El cociente es doce dividido entre diecinueve, aproximadamente cero punto seiscientos treinta y dos.
+
+Hemos obtenido Bayes sin escribirlo como una fórmula especial. Primero construimos probabilidades conjuntas. Luego restringimos al evento conocido y renormalizamos. La fórmula de Bayes resume exactamente estos dos pasos.
+
+Pregunta tres: ¿cuál es la probabilidad de que una pieza no defectuosa proceda de la línea dos? Ahora la información es la columna no defecto. La celda favorable es cero punto doscientos ochenta y ocho. El total de la columna es cero punto novecientos ochenta y uno. El cociente es doscientos ochenta y ocho dividido entre novecientos ochenta y uno, aproximadamente cero punto doscientos noventa y cuatro.
+
+Observe el cambio. Antes de inspeccionar la pieza, la probabilidad de línea dos era treinta por ciento. Saber que la pieza es defectuosa eleva esa probabilidad a aproximadamente sesenta y tres por ciento, porque el defecto es más frecuente en la línea dos. Saber que no es defectuosa la reduce ligeramente, a cerca de veintinueve punto cuatro por ciento.
+
+Pregunta de control. Sin hacer cuentas nuevas, explique por qué una pieza defectuosa aporta evidencia a favor de la línea dos.
+
+Fin de la pista ocho.

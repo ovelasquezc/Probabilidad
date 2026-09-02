@@ -1,0 +1,218 @@
+=== PISTA 01: SISTEMAS PI, SISTEMAS DE DYNKIN Y UNICIDAD ===
+Teoría de la Probabilidad, semana uno, sesión dos. Variables y leyes.
+
+Objetivos. Recordar el teorema pi lambda. Separar una variable aleatoria de su ley. Verificar medibilidad mediante preimágenes. Demostrar las propiedades de una función de distribución. Distinguir leyes discretas, leyes con densidad y leyes mixtas.
+
+Regla de trabajo. Para una pregunta sobre una variable X, escribiremos primero el modelo, la definición de X y el evento como preimagen. La expresión «X menor o igual que x» significa el conjunto de resultados omega para los que X de omega es menor o igual que x. La probabilidad se aplica a ese evento.
+
+Definición. Sea E un conjunto. Una familia no vacía P caligráfica de subconjuntos de E es un sistema pi si es cerrada bajo intersecciones finitas. Es decir, si A y B pertenecen a P caligráfica, entonces A intersección B también pertenece.
+
+Una familia D caligráfica es un sistema de Dynkin, también llamado sistema lambda, si cumple tres propiedades. Primera: E pertenece a D. Segunda: si A pertenece a D, su complemento respecto de E pertenece a D. Tercera: si A sub uno, A sub dos y así sucesivamente pertenecen a D y son disjuntos dos a dos, entonces su unión numerable pertenece a D.
+
+Denotamos lambda de P al menor sistema de Dynkin que contiene a P. Puede construirse como la intersección de todos los sistemas de Dynkin que contienen a P.
+
+Teorema de Dynkin, o teorema pi lambda. Si P es un sistema pi sobre E, el sistema de Dynkin generado por P coincide con la sigma álgebra generada por P. En símbolos: lambda de P igual a sigma de P.
+
+Una forma práctica de usarlo es esta: si D es un sistema de Dynkin que contiene al sistema pi P, entonces D contiene toda la sigma álgebra generada por P.
+
+Teorema de unicidad de probabilidades. Sean mu y nu dos probabilidades sobre la sigma álgebra generada por un sistema pi P. Si mu de A es igual a nu de A para todo A en P, entonces mu y nu coinciden sobre toda la sigma álgebra.
+
+La demostración se organiza definiendo D como la colección de conjuntos donde mu y nu coinciden. Como ambas medidas tienen masa total uno, D contiene al espacio y es cerrada bajo complementos. Por aditividad, también es cerrada bajo uniones numerables disjuntas. Por tanto D es un sistema de Dynkin. Contiene P por hipótesis. El teorema pi lambda implica que contiene sigma de P.
+
+Consecuencia en la recta. La familia formada por la recta real y todas las semirrectas desde menos infinito hasta x, con x incluido, es un sistema pi y genera los borelianos. Dos probabilidades que coinciden en todas esas semirrectas coinciden en todos los borelianos. Esta observación probará que una función de distribución determina una única ley.
+
+Pregunta de control. ¿Qué propiedad adicional tiene un sistema pi que no se exige en la definición de un sistema de Dynkin? Detenga el audio para responder.
+
+Fin de la pista uno.
+
+=== PISTA 02: VARIABLE ALEATORIA Y MEDIBILIDAD ===
+Sesión dos, pista dos. Una variable es una función medible.
+
+Una frase provocadora dice: «Una variable aleatoria ni es variable ni es aleatoria». La variable X es una función fija. A cada resultado omega le asigna un valor X de omega. Lo que varía entre realizaciones es el resultado del experimento. La incertidumbre proviene de que no sabemos qué omega ocurrirá.
+
+Definición. Una variable aleatoria real es una aplicación medible X desde el espacio medible omega, efe, hacia la recta real con su sigma álgebra de Borel. Medibilidad significa que, para todo boreliano C, la preimagen de C mediante X pertenece a efe.
+
+La notación «X pertenece a C» abrevia la preimagen de C. Es el conjunto de todos los omega tales que X de omega pertenece a C. La notación «X menor o igual que x» abrevia la preimagen de la semirrecta desde menos infinito hasta x. La medibilidad garantiza que las preguntas sobre la observación corresponden a eventos con probabilidad definida.
+
+Proposición cinco, criterio práctico. X es medible si y solo si el evento «X menor o igual que x» pertenece a efe para cada número real x.
+
+Demostración. Si X es medible, la condición se cumple porque cada semirrecta es boreliana.
+
+Para la implicación inversa, definimos C caligráfica como la familia de subconjuntos C de la recta cuya preimagen por X pertenece a efe. Las preimágenes preservan complementos y uniones numerables. Por tanto, C caligráfica es una sigma álgebra. Por hipótesis contiene todas las semirrectas hasta x. Como esas semirrectas generan los borelianos, C caligráfica contiene la sigma álgebra de Borel. En consecuencia, la preimagen de todo boreliano es medible y X es medible. Fin de la demostración.
+
+Ejemplo: una observación demasiado fina. El espacio omega contiene uno, dos, tres y cuatro. La sigma álgebra contiene el vacío, omega, el bloque formado por uno y dos, y el bloque formado por tres y cuatro. Esta sigma álgebra representa información que permite distinguir los dos bloques, pero no los elementos dentro de cada bloque.
+
+Definimos X: X de uno y X de dos valen cero; X de tres y X de cuatro valen uno. Las preimágenes de cero y uno son precisamente los dos bloques medibles. X es medible.
+
+Definimos Y: Y de uno y Y de tres valen cero; Y de dos y Y de cuatro valen uno. El evento «Y menor o igual que cero» contiene uno y tres. Ese conjunto no pertenece a la sigma álgebra. Y no es medible. Pretende distinguir resultados que la información del modelo no distingue.
+
+Pregunta de control. En el ejemplo, ¿qué condición deben satisfacer los valores de cualquier función medible sobre cada uno de los dos bloques? Detenga el audio para responder.
+
+Fin de la pista dos.
+
+=== PISTA 03: LA LEY DE UNA VARIABLE ===
+Sesión dos, pista tres. La ley es una medida sobre el espacio de valores.
+
+Definición. La ley de X, denotada mu sub X, asigna a cada boreliano C la probabilidad del evento «X pertenece a C». Equivalentemente, mu sub X de C es P de la preimagen de C mediante X.
+
+Verificación. La ley es una probabilidad. La preimagen de la recta completa es omega, por lo que su masa es uno. Las masas son no negativas. Si los C sub n son borelianos disjuntos, sus preimágenes también son disjuntas y la preimagen de la unión es la unión de las preimágenes. La aditividad de P produce la aditividad de mu sub X.
+
+Volvamos a los dos lanzamientos de moneda. Ahora definimos N como el número de caras. N de cero cero vale cero. N de cero uno y N de uno cero valen uno. N de uno uno vale dos. Las preimágenes de cero, uno y dos son los eventos A sub cero, A sub uno y A sub dos de la sesión anterior. La ley de N asigna un cuarto a cero, un medio a uno y un cuarto a dos.
+
+No confunda tres objetos. X es una función definida sobre omega. X de omega es un valor observado. Mu sub X es una medida sobre la recta. Dos variables pueden tener la misma ley y, sin embargo, ser funciones diferentes.
+
+Ejemplo. En el intervalo de cero a uno con probabilidad uniforme, definimos U de omega igual a omega y V de omega igual a uno menos omega. Para x entre cero y uno, el evento U menor o igual que x es el intervalo desde cero hasta x. Su probabilidad es x. El evento V menor o igual que x es el intervalo desde uno menos x hasta uno. Su probabilidad también es x. U y V tienen la misma ley uniforme.
+
+Sin embargo, U y V solo son iguales cuando omega es un medio. Ese evento tiene probabilidad cero. Incluso se cumple U más V igual a uno para todo omega. La ley marginal de cada variable no conserva la relación entre ambas.
+
+Pregunta de control. Explique la diferencia entre el evento «X pertenece a C» y el número mu sub X de C.
+
+Fin de la pista tres.
+
+=== PISTA 04: FUNCIÓN DE DISTRIBUCIÓN Y SU DEMOSTRACIÓN ===
+Sesión dos, pista cuatro. Función de distribución.
+
+Para cada real x definimos primero el evento A sub x igual a «X menor o igual que x». Estos eventos crecen cuando x aumenta. La función de distribución de X es F sub X de x igual a probabilidad de X menor o igual que x. En este curso usaremos siempre menor o igual.
+
+Teorema seis. La función F sub X es no decreciente, es continua por la derecha y tiende a cero cuando x tiende a menos infinito y a uno cuando x tiende a más infinito. Además, el límite de F sub X de t cuando t se acerca a x por la izquierda es la probabilidad de X estrictamente menor que x. La probabilidad de X igual a x es el salto: F sub X de x menos su límite por la izquierda.
+
+Demostración de la monotonía. Si x es menor o igual que y, el evento X menor o igual que x está contenido en el evento X menor o igual que y. La monotonía de la probabilidad da F de x menor o igual que F de y.
+
+Demostración de los límites. Como X toma valores reales finitos, los eventos X menor o igual que n crecen hacia omega cuando n recorre los enteros positivos. La continuidad desde abajo da que F de n tiende a uno. Los eventos X menor o igual que menos n decrecen al vacío. La continuidad desde arriba da que F de menos n tiende a cero. La monotonía extiende estos límites desde los enteros a todos los reales.
+
+Demostración de la continuidad por la derecha. Sea x sub n una sucesión que decrece hacia x. Los eventos X menor o igual que x sub n decrecen hacia el evento X menor o igual que x. Por continuidad desde arriba, F de x sub n tiende a F de x.
+
+Demostración del límite por la izquierda. Sea x sub n una sucesión que crece hacia x y satisface x sub n menor que x. Los eventos X menor o igual que x sub n crecen hacia el evento X estrictamente menor que x. La continuidad desde abajo da que el límite de F de x sub n es probabilidad de X menor que x.
+
+Finalmente, el evento X menor o igual que x es la unión disjunta de X menor que x con X igual a x. Restar sus probabilidades muestra que la masa en x es F de x menos F de x por la izquierda. Fin de la demostración.
+
+Corolario siete, probabilidades de intervalos. Para a menor que b: probabilidad de a menor que X y X menor o igual que b es F de b menos F de a. Probabilidad de a menor o igual que X y X menor o igual que b es F de b menos F de a por la izquierda. Probabilidad de a menor que X y X menor que b es F de b por la izquierda menos F de a. Probabilidad de a menor o igual que X y X menor que b es F de b por la izquierda menos F de a por la izquierda.
+
+Cada fórmula resulta de una descomposición disjunta. Por ejemplo, el evento X menor o igual que b es la unión disjunta de X menor que a y a menor o igual que X menor o igual que b. Restar produce la segunda fórmula.
+
+Consecuencia. F es continua en x si y solo si la probabilidad de X igual a x es cero. Una función de distribución continua no tiene átomos. Esto no basta para afirmar que posee densidad.
+
+Pregunta de control. ¿Por qué aproximar x desde la izquierda produce el evento X estrictamente menor que x y no el evento X menor o igual que x?
+
+Fin de la pista cuatro.
+
+=== PISTA 05: LEYES DISCRETAS Y LEYES CON DENSIDAD ===
+Sesión dos, pista cinco. Dos tipos de ley.
+
+Una ley es discreta si existe un conjunto finito o numerable de valores x sub uno, x sub dos y así sucesivamente que contiene a X con probabilidad uno. Si p sub k es la probabilidad de X igual a x sub k, la ley de un boreliano C es la suma de p sub k sobre los valores que pertenecen a C. La función de distribución suma las masas de todos los x sub k menores o iguales que x.
+
+Ejemplo Bernoulli. Sea A un evento y defina X igual a la indicadora de A. X vale uno sobre A y cero sobre A complemento. Si p es probabilidad de A, las masas son p en uno y uno menos p en cero.
+
+Para calcular la función de distribución escribimos preimágenes. Si x es menor que cero, el evento X menor o igual que x es vacío y F vale cero. Si x está entre cero incluido y uno excluido, el evento es A complemento y F vale uno menos p. Si x es mayor o igual que uno, el evento es omega y F vale uno. Las masas aparecen como saltos.
+
+Una ley admite densidad respecto de Lebesgue si existe una función medible f, no negativa, cuya integral sobre la recta es uno, y la probabilidad de cada boreliano C es la integral de f sobre C. Entonces F de x es la integral desde menos infinito hasta x de f de t respecto de t. Todo singleton tiene medida de Lebesgue cero, de modo que probabilidad de X igual a x es cero.
+
+La densidad f de x no es la probabilidad de X igual a x. Puede tomar valores mayores que uno. Lo que representa probabilidades son sus integrales. Por el teorema fundamental de la integral de Lebesgue, la derivada de F es igual a f casi en todas partes, no necesariamente en cada punto.
+
+Ejemplo. Sobre la recta, definimos una probabilidad con densidad f de t igual a dos t para t entre cero y uno, y cero fuera. Es no negativa y su integral es uno. Tomamos X igual a la función identidad.
+
+Si x es menor o igual que cero, F de x es cero. Si x está entre cero y uno, integramos dos t desde cero hasta x y obtenemos x al cuadrado. Si x es mayor o igual que uno, F de x es uno.
+
+Pregunta en lenguaje natural: ¿cuál es la probabilidad de que X sea mayor que un medio y menor o igual que uno? El evento es el intervalo abierto en un medio y cerrado en uno. Su probabilidad es F de uno menos F de un medio, igual a uno menos un cuarto, igual a tres cuartos.
+
+Pregunta de control. ¿Puede una densidad valer dos en algún punto? Sí. Explique por qué esto no contradice que las probabilidades estén entre cero y uno.
+
+Fin de la pista cinco.
+
+=== PISTA 06: LEY MIXTA, CARACTERIZACIÓN Y CIERRE ===
+Sesión dos, pista seis. Ley mixta y cierre.
+
+Sea q un número entre cero y uno. Construimos una ley con masa q en cero y con la masa restante, uno menos q, distribuida uniformemente entre uno y tres. Para un boreliano C, su medida es q si C contiene a cero, más uno menos q dividido entre dos, multiplicado por la longitud de la parte de C que cae entre uno y tres.
+
+En el modelo canónico, omega es la recta, la probabilidad es esta medida y X es la identidad. Para calcular F usamos el evento menos infinito hasta x, con x incluido.
+
+Si x es menor que cero, F vale cero. Si x está entre cero incluido y uno excluido, F vale q debido al átomo en cero. Si x está entre uno incluido y tres excluido, F vale q más uno menos q por x menos uno, dividido entre dos. Si x es mayor o igual que tres, F vale uno.
+
+La función tiene un salto q en cero y una parte lineal continua entre uno y tres. No existe una densidad global respecto de Lebesgue, porque la integral de cualquier función sobre el singleton cero es cero, mientras que esta ley asigna masa q a cero.
+
+Compare dos eventos. B es «cero menor que X y X menor o igual que dos». C es «cero menor o igual que X y X menor o igual que dos». C contiene además el átomo X igual a cero. Probabilidad de B es uno menos q dividido entre dos. Probabilidad de C es q más uno menos q dividido entre dos.
+
+Terminamos con la caracterización de las funciones de distribución. Enunciado. Si F toma valores entre cero y uno, es no decreciente, continua por la derecha y tiene límites cero y uno en los extremos de la recta, existe una única probabilidad mu tal que mu de la semirrecta hasta x es F de x.
+
+Idea de existencia. Tomamos U uniforme entre cero y uno y definimos el cuantil generalizado Q de u como el ínfimo de los x para los que F de x es mayor o igual que u. La continuidad por la derecha permite mostrar que el ínfimo alcanza el nivel. Se demuestra la equivalencia: Q de u menor o igual que x si y solo si u menor o igual que F de x. Por ello, probabilidad de Q de U menor o igual que x es F de x.
+
+Idea de unicidad. Si dos probabilidades tienen la misma F, coinciden en todas las semirrectas hasta x. Esas semirrectas forman un sistema pi y generan los borelianos. El teorema pi lambda extiende la igualdad a toda la sigma álgebra.
+
+Resumen de la sesión. Una variable aleatoria es una función medible. Su ley es una probabilidad sobre el espacio de valores. La función de distribución registra la masa de las semirrectas y determina la ley. Las leyes pueden ser discretas, tener densidad o mezclar una parte atómica con otra continua.
+
+Preguntas de salida. Uno: ¿qué papel desempeñan las preimágenes en la medibilidad? Dos: ¿cómo se recupera la masa de un punto a partir de F? Tres: ¿por qué una función de distribución continua puede, aun así, carecer de densidad?
+
+Fin de la sesión dos.
+
+=== PISTA 07: EXISTENCIA Y UNICIDAD DE UNA LEY A PARTIR DE F ===
+Sesión dos, pista siete. Demostración complementaria del teorema de caracterización.
+
+Enunciado. Sea F una función de la recta en el intervalo de cero a uno. Supongamos que F es no decreciente, continua por la derecha y que sus límites en menos infinito y más infinito son cero y uno. Entonces existe una única probabilidad mu en los borelianos de la recta tal que mu del intervalo desde menos infinito hasta x, con x incluido, es F de x.
+
+Demostración de existencia. Tomamos como espacio de partida el intervalo abierto de cero a uno con probabilidad uniforme. Para cada u entre cero y uno definimos Q de u como el ínfimo del conjunto de números x tales que F de x es mayor o igual que u.
+
+Primero justificamos que Q de u es un número real. El conjunto no es vacío porque F tiende a uno en más infinito y u es menor que uno. Está acotado inferiormente porque F tiende a cero en menos infinito y u es positivo.
+
+Segundo, mostramos que el nivel se alcanza en el ínfimo. Sea a igual a Q de u. Por la propiedad del ínfimo, para cada n existe un punto y sub n menor que a más uno dividido entre n con F de y sub n mayor o igual que u. Como F es no decreciente, F de a más uno dividido entre n también es mayor o igual que u. Al hacer n tender a infinito, los puntos a más uno dividido entre n decrecen hacia a. La continuidad por la derecha da F de a mayor o igual que u.
+
+Tercero, probamos la equivalencia clave: Q de u menor o igual que x si y solo si u menor o igual que F de x.
+
+Supongamos Q de u menor o igual que x. Acabamos de probar que F de Q de u es mayor o igual que u. Por monotonía, F de x es mayor o igual que F de Q de u, y por tanto mayor o igual que u.
+
+En sentido inverso, si u es menor o igual que F de x, entonces x pertenece al conjunto cuyo ínfimo define Q. En consecuencia, Q de u es menor o igual que x.
+
+La equivalencia muestra que la preimagen del intervalo menos infinito hasta x mediante Q es el conjunto de u menores o iguales que F de x. Es un intervalo boreliano. Por el criterio de semirrectas, Q es medible. Además, como U es uniforme, la probabilidad de Q de U menor o igual que x es la longitud del intervalo desde cero hasta F de x, igual a F de x. La ley de Q es la probabilidad buscada.
+
+Demostración de unicidad. Supongamos que mu y nu producen la misma F. Definimos D como la colección de borelianos C para los que mu de C es igual a nu de C. Esta familia contiene la recta. Es cerrada bajo complementos porque ambas probabilidades tienen masa total uno. Es cerrada bajo uniones disjuntas por la aditividad de ambas medidas. Por tanto D es un sistema de Dynkin.
+
+D contiene todas las semirrectas menos infinito hasta x porque mu y nu tienen la misma F. Esas semirrectas, junto con la recta, forman un sistema pi que genera los borelianos. El teorema pi lambda implica que D contiene todos los borelianos. Mu y nu son iguales. Fin de la demostración.
+
+Pregunta de control. Identifique el punto exacto donde se usa la continuidad por la derecha y el punto exacto donde se usa el teorema pi lambda.
+
+Fin de la pista siete.
+
+=== PISTA 08: TRANSFORMACIÓN DE UNA UNIFORME MEDIANTE PREIMÁGENES ===
+Sesión dos, pista ocho. Ejemplo resuelto de transformación.
+
+Sea U uniforme en el intervalo de cero a uno. Definimos Y igual a U menos un medio, todo elevado al cuadrado.
+
+Pregunta en lenguaje natural: ¿cuál es la función de distribución de la distancia cuadrática de U al punto medio del intervalo?
+
+No comenzamos derivando una fórmula. Para cada real y, identificamos el evento Y menor o igual que y. Es el conjunto de resultados u para los que el cuadrado de u menos un medio es menor o igual que y.
+
+Si y es negativo, el evento es vacío porque un cuadrado no puede ser negativo. Por tanto F sub Y de y es cero.
+
+Supongamos ahora y mayor o igual que cero. La desigualdad cuadrática equivale a valor absoluto de u menos un medio menor o igual que raíz cuadrada de y. Esto equivale a u entre un medio menos raíz de y y un medio más raíz de y.
+
+Pero u debe permanecer dentro de cero y uno. Si y está entre cero y un cuarto, la raíz está entre cero y un medio y el intervalo queda dentro del espacio. Su longitud es dos raíz cuadrada de y. Como U es uniforme, F sub Y de y es dos raíz cuadrada de y.
+
+Si y es mayor o igual que un cuarto, todo u entre cero y uno satisface la desigualdad, porque la distancia máxima al punto medio es un medio y su cuadrado es un cuarto. La función de distribución vale uno.
+
+En resumen: F sub Y de y vale cero para y menor que cero; vale dos raíz de y para y entre cero y un cuarto; y vale uno desde un cuarto en adelante.
+
+La función es continua, de modo que Y no tiene átomos. En el intervalo abierto de cero a un cuarto podemos derivar y obtener una densidad f sub Y de y igual a uno dividido entre raíz cuadrada de y. Fuera de ese intervalo es cero.
+
+La densidad crece sin cota cuando y se acerca a cero. Esto no es un problema. Su integral desde cero hasta un cuarto es dos raíz de un cuarto, igual a uno. Una densidad puede ser no acotada siempre que sea integrable.
+
+Dos consultas. La probabilidad de Y igual a cero es cero, porque corresponde únicamente a U igual a un medio. La probabilidad de Y menor o igual que un dieciseisavo es dos por la raíz de un dieciseisavo, igual a dos por un cuarto, igual a un medio.
+
+Pregunta de control. ¿Por qué la fórmula dos raíz de y deja de usarse cuando y supera un cuarto?
+
+Fin de la pista ocho.
+
+=== PISTA 09: MAPA DE LAS DEMOSTRACIONES DE LA SESIÓN DOS ===
+Sesión dos, pista nueve. Mapa de estudio.
+
+Para demostrar medibilidad mediante semirrectas, la decisión central es reunir todos los conjuntos del espacio de llegada cuya preimagen es medible. Esa colección es una sigma álgebra. Si contiene una familia generadora, contiene todos los borelianos.
+
+Para demostrar que la ley de X es una probabilidad, trasladamos las operaciones mediante preimágenes. La preimagen de una unión es la unión de las preimágenes. La preimagen de conjuntos disjuntos produce eventos disjuntos. La aditividad se hereda de P.
+
+Para demostrar propiedades de F, nunca manipulamos F de manera aislada. Volvemos a los eventos X menor o igual que x. La monotonía proviene de inclusiones. Los límites y la continuidad por la derecha provienen de continuidad de la probabilidad. Los saltos provienen de una unión disjunta entre X menor que x y X igual a x.
+
+Para construir una ley desde una función F, usamos el cuantil generalizado. La equivalencia entre Q de u menor o igual que x y u menor o igual que F de x transforma una uniforme en la ley deseada.
+
+Para probar unicidad, basta verificar igualdad sobre las semirrectas y extenderla mediante el teorema pi lambda. Esta es la razón estructural por la que conocer F determina todas las probabilidades borelianas.
+
+Método de estudio. Ante cualquier fórmula sobre una variable, pregunte cuál es el evento preimagen. Ante cualquier límite de F, identifique si los eventos crecen o decrecen. Ante una supuesta densidad, compruebe no negatividad, integral uno y si explica toda la masa, incluidos posibles átomos.
+
+Fin de la pista nueve y del repaso comentado de la sesión dos.

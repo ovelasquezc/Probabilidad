@@ -1,0 +1,23 @@
+Sesión uno, pista seis. Ejemplo resuelto: procedencia de una pieza.
+
+Enunciado. Dos líneas de producción aportan, respectivamente, el sesenta por ciento y el cuarenta por ciento de las piezas de una fábrica. El dos por ciento de las piezas producidas por la línea uno y el cinco por ciento de las producidas por la línea dos son defectuosas. Se elige al azar una pieza de la producción conjunta y se la inspecciona.
+
+Primera pregunta en lenguaje natural: ¿cuál es la probabilidad de que la pieza elegida sea defectuosa? Segunda pregunta: si resulta defectuosa, ¿cuál es la probabilidad de que proceda de la línea dos?
+
+Modelización. Cada resultado omega representa una pieza seleccionada junto con su procedencia y su estado. Definimos L sub uno como el evento «la pieza procede de la línea uno». L sub dos como «la pieza procede de la línea dos». D como «la pieza es defectuosa». No necesitamos una variable aleatoria. L sub uno y L sub dos forman una partición.
+
+Los datos son: probabilidad de L sub uno igual a cero punto sesenta. Probabilidad de L sub dos igual a cero punto cuarenta. Probabilidad de D condicionada a L sub uno igual a cero punto cero dos. Probabilidad de D condicionada a L sub dos igual a cero punto cero cinco.
+
+La primera pregunta pide probabilidad de D. El evento D es la unión disjunta de D intersección L sub uno con D intersección L sub dos. Por probabilidad total, probabilidad de D es cero punto sesenta por cero punto cero dos, más cero punto cuarenta por cero punto cero cinco. Los productos son cero punto cero doce y cero punto cero veinte. La suma es cero punto cero treinta y dos. Es decir, tres punto dos por ciento.
+
+La segunda pregunta aporta la información D y pide la probabilidad de L sub dos. Por Bayes, probabilidad de L sub dos condicionada a D es probabilidad de D condicionada a L sub dos, por probabilidad de L sub dos, todo dividido entre probabilidad de D. Sustituimos. El numerador es cero punto cero cinco por cero punto cuarenta, igual a cero punto cero veinte. El denominador es cero punto cero treinta y dos. El cociente es cinco octavos, igual a cero punto seiscientos veinticinco.
+
+Una comprobación con frecuencias de referencia: en diez mil piezas, seis mil procederían de la línea uno y cuatro mil de la línea dos. Entre las primeras habría ciento veinte defectuosas. Entre las segundas, doscientas. De las trescientas veinte defectuosas, doscientas procederían de la línea dos. La proporción es doscientas entre trescientas veinte, igual a cinco octavos. Esta tabla solo ayuda a interpretar las proporciones del modelo; no afirma que hayamos observado exactamente esos conteos.
+
+No confunda probabilidad de D condicionada a L sub dos, que es cinco por ciento, con probabilidad de L sub dos condicionada a D, que es sesenta y dos punto cinco por ciento. El orden expresa qué evento se pregunta y qué evento constituye la información.
+
+Resumen de la sesión. Primero modelamos resultados y eventos. Recordamos borelianos e integral de Lebesgue. Deducimos propiedades y continuidad desde los axiomas. Distinguimos evento nulo de evento vacío. Finalmente, definimos condicionamiento y demostramos probabilidad total y Bayes.
+
+Preguntas de salida. Uno: ¿qué debe definirse antes de efectuar una cuenta de probabilidad? Dos: ¿dónde se usa la aditividad numerable en la continuidad desde abajo? Tres: ¿por qué Bayes no permite intercambiar sin más los eventos condicionante y condicionado?
+
+Fin de la sesión uno.

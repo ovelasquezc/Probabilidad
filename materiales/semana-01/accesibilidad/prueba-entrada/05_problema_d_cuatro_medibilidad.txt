@@ -1,0 +1,11 @@
+Problema D cuatro. Medibilidad. Tres puntos diagnósticos.
+
+El espacio omega contiene uno, dos, tres y cuatro. La sigma álgebra efe contiene el vacío, omega, el conjunto uno coma dos y el conjunto tres coma cuatro.
+
+La función X toma los valores uno, uno, dos y dos en los resultados uno, dos, tres y cuatro, respectivamente.
+
+La función Y toma los valores uno, dos, uno y dos en los resultados uno, dos, tres y cuatro, respectivamente.
+
+¿Cuál de las dos funciones es medible hacia la recta con sus borelianos? Justifique mediante preimágenes. No basta afirmar que el dominio es finito.
+
+Fin del problema D cuatro.

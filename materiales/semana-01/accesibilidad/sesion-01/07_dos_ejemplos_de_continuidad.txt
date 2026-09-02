@@ -1,0 +1,19 @@
+Sesión uno, pista siete. Ejemplos resueltos de continuidad.
+
+Primer ejemplo. Trabajamos en el intervalo de cero a uno con probabilidad uniforme. Para cada entero positivo n, definimos A sub n como el intervalo abierto desde cero hasta uno dividido entre n.
+
+Pregunta en lenguaje natural: ¿qué sucede con la probabilidad de observar un número positivo menor que uno dividido entre n cuando n crece?
+
+Antes de calcular identificamos los eventos. A sub uno es el intervalo de cero a uno. A sub dos es de cero a un medio. Cada término está contenido en el anterior, así que la sucesión es decreciente. ¿Cuál es su intersección? Ningún número positivo puede ser menor que uno dividido entre n para todo n. El cero tampoco pertenece porque el extremo es abierto. Por tanto, la intersección es el vacío.
+
+La probabilidad de A sub n es su longitud, uno dividido entre n. Por continuidad desde arriba, estas probabilidades deben decrecer a la probabilidad del vacío, que es cero. El cálculo uno dividido entre n tiende a cero confirma el teorema.
+
+Modifiquemos ahora el extremo y definamos C sub n como el intervalo cerrado desde cero hasta uno dividido entre n. La sucesión sigue siendo decreciente, pero su intersección es el singleton que contiene cero. La probabilidad de C sub n también es uno dividido entre n y tiende a cero. No hay contradicción: el singleton cero es un evento no vacío de probabilidad cero.
+
+Segundo ejemplo. Definimos B sub n como el intervalo cerrado desde uno dividido entre n hasta uno. Estos eventos crecen porque el extremo izquierdo se acerca a cero. Su unión no contiene cero, pero contiene todos los números positivos hasta uno. Es el intervalo abierto en cero y cerrado en uno. La probabilidad de B sub n es uno menos uno dividido entre n. Por continuidad desde abajo, el límite es uno, que coincide con la probabilidad del intervalo abierto en cero y cerrado en uno. El punto excluido no cambia la probabilidad.
+
+Este par de ejemplos muestra dos ideas distintas. La continuidad de probabilidades depende de la unión o intersección exacta de los eventos. La igualdad de probabilidades no implica igualdad de eventos: dos conjuntos pueden diferir en un conjunto nulo.
+
+Pregunta de control. Si D sub n fuera el intervalo abierto desde cero hasta uno menos uno dividido entre n, ¿la sucesión sería creciente o decreciente y cuál sería su unión?
+
+Fin de la pista siete.

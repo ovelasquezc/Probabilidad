@@ -1,0 +1,9 @@
+Problema D dos. Modelo finito. Tres puntos diagnósticos.
+
+Una urna contiene tres bolas rojas y dos azules. Se extraen dos bolas sin reposición, eligiendo cada vez uniformemente entre las bolas restantes.
+
+Parte a. Calcule la probabilidad de que ambas bolas extraídas sean rojas.
+
+Parte b. Calcule la probabilidad de obtener exactamente una bola roja y una azul. Justifique que contó todos los órdenes pertinentes.
+
+Fin del problema D dos.

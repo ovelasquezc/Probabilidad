@@ -1,0 +1,23 @@
+Sesión uno, pista cinco. Condicionamiento y actualización.
+
+Definición. Sean A y B eventos y supongamos que la probabilidad de B es positiva. La probabilidad de A condicionada a B es la probabilidad de A intersección B dividida entre la probabilidad de B. Fin de la fórmula.
+
+El evento B representa la información disponible. El numerador conserva la parte de A compatible con esa información. El denominador vuelve a normalizar las probabilidades dentro de B.
+
+Proposición tres. Para B fijo de probabilidad positiva, la aplicación que lleva A a la probabilidad de A condicionada a B es una probabilidad.
+
+Demostración. Es no negativa. La probabilidad condicional de omega dado B es probabilidad de B dividida entre sí misma, igual a uno. Si los A sub n son disjuntos, sus intersecciones con B también son disjuntas. La aditividad de P en el numerador permite separar la suma y el denominador común. Se obtiene la suma de las probabilidades condicionadas. Fin de la demostración.
+
+Teorema cuatro, probabilidad total y fórmula de Bayes. Sea B sub i una partición finita o numerable de omega, con cada celda de probabilidad positiva. Para cualquier evento A, la probabilidad de A es la suma, sobre i, de probabilidad de A condicionada a B sub i multiplicada por probabilidad de B sub i.
+
+Si además A tiene probabilidad positiva, la probabilidad de B sub j condicionada a A es una fracción. El numerador es probabilidad de A condicionada a B sub j por probabilidad de B sub j. El denominador es la suma, sobre i, de probabilidad de A condicionada a B sub i por probabilidad de B sub i. Fin de la fórmula.
+
+Demostración. Los eventos A intersección B sub i son disjuntos y su unión es A. La aditividad expresa probabilidad de A como la suma de sus probabilidades. Cada término se escribe como probabilidad de A condicionada a B sub i por probabilidad de B sub i. Esto demuestra probabilidad total. Para Bayes, partimos de probabilidad de B sub j condicionada a A igual a probabilidad de A intersección B sub j dividida entre probabilidad de A. Reescribimos el numerador por la definición de condicionamiento y el denominador por probabilidad total. Fin de la demostración.
+
+Si una celda de la partición tiene probabilidad cero, se omite. No se utiliza una probabilidad condicional indefinida multiplicada por cero.
+
+Volvamos al ejemplo de las monedas. H significa al menos una cara y A sub dos significa dos caras. La intersección de A sub dos con H es A sub dos. El numerador es un cuarto y el denominador tres cuartos. La probabilidad de dos caras dado que apareció al menos una es un tercio.
+
+Pregunta de control. Explique con palabras la diferencia entre probabilidad de A condicionada a B y probabilidad de B condicionada a A.
+
+Fin de la pista cinco.

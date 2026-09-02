@@ -1,0 +1,13 @@
+Problema D seis. Convergencia e integración. Cuatro puntos diagnósticos.
+
+En el intervalo de cero a uno con medida de Lebesgue, sea f sub n de x igual a x elevado a n, para n mayor o igual que uno.
+
+Parte a. Determine el límite puntual, incluyendo el valor en x igual a uno.
+
+Parte b. Calcule la integral desde cero hasta uno de f sub n de x respecto de x y calcule su límite cuando n tiende a infinito.
+
+Parte c. ¿Se puede aplicar el teorema de convergencia dominada? Si responde que sí, indique una función dominante y verifique su integrabilidad. Si responde que no, explique qué hipótesis falla.
+
+Al terminar, indique qué área necesita recuperar primero: cálculo, probabilidad o teoría de la medida.
+
+Fin de la prueba de entrada sonora.

@@ -1,0 +1,25 @@
+Sesión uno, pista tres. Propiedades y continuidad.
+
+Proposición uno. La probabilidad del vacío es cero. La probabilidad del complemento de A es uno menos la probabilidad de A. Si A está contenido en B, entonces la probabilidad de A es menor o igual que la de B. La probabilidad de A unión B es la probabilidad de A más la de B menos la de A intersección B. Finalmente, la probabilidad de una unión numerable es menor o igual que la suma de las probabilidades. Esta última afirmación es la subaditividad.
+
+Demostración. Para obtener la probabilidad del vacío, aplicamos aditividad a una sucesión formada por omega y conjuntos vacíos. La unión es omega. La igualdad resultante solo es posible si la probabilidad del vacío es cero.
+
+Para el complemento, descomponemos omega como la unión disjunta de A y A complemento. Por aditividad, uno es igual a probabilidad de A más probabilidad de A complemento. Despejamos.
+
+Para la monotonía, supongamos A contenido en B. Entonces B es la unión disjunta de A con B menos A. Por aditividad, probabilidad de B es probabilidad de A más un término no negativo. Por tanto, probabilidad de A es menor o igual que probabilidad de B.
+
+Para la fórmula de dos eventos, escribimos A unión B como la unión disjunta de A y B menos A. También escribimos B como la unión disjunta de B menos A y A intersección B. Sustituir la segunda igualdad en la primera produce la fórmula.
+
+Para la subaditividad, una unión posiblemente solapada se convierte en una unión disjunta. Definimos D sub uno igual a A sub uno. Para n mayor o igual que dos, D sub n es A sub n menos la unión de todos los A anteriores. Los D sub n son disjuntos, están contenidos en los A correspondientes y tienen la misma unión. La aditividad y la monotonía dan la desigualdad. Fin de la demostración.
+
+Teorema dos, continuidad de la probabilidad. Si A sub n es una sucesión creciente de eventos y su unión es A, entonces las probabilidades de A sub n crecen hacia la probabilidad de A. Si A sub n es decreciente y su intersección es A, las probabilidades decrecen hacia la probabilidad de A.
+
+Demostración del caso creciente. Ponemos A sub cero igual al vacío y definimos D sub n igual a A sub n menos A sub n menos uno. Los incrementos D sub n son disjuntos. A sub n es la unión de los primeros n incrementos y A es la unión de todos ellos. Por aditividad numerable, probabilidad de A es la serie de las probabilidades de D sub k. Las sumas parciales de esa serie son precisamente las probabilidades de A sub n. Por tanto, el límite es probabilidad de A.
+
+Demostración del caso decreciente. Los complementos A sub n complemento forman una sucesión creciente cuya unión es A complemento. Aplicamos el caso anterior y usamos probabilidad de un complemento igual a uno menos la probabilidad del evento. Fin de la demostración.
+
+Para una medida general, la continuidad desde arriba necesita que algún término tenga medida finita. En probabilidad esta condición siempre se cumple porque la masa total es uno. Como contraste, con medida de Lebesgue, los intervalos desde n hasta infinito decrecen al vacío, pero todos tienen medida infinita.
+
+Pregunta de control. En el caso creciente, ¿por qué las probabilidades de A sub n son las sumas parciales de una serie no negativa? Detenga el audio antes de continuar.
+
+Fin de la pista tres.

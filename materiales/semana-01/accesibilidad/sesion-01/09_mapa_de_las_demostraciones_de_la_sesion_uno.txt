@@ -1,0 +1,17 @@
+Sesión uno, pista nueve. Mapa para reconstruir las demostraciones.
+
+Una demostración se recuerda mejor por sus decisiones que por una cadena de símbolos. Revisemos las decisiones centrales.
+
+Para demostrar propiedades elementales de P, buscamos descomposiciones disjuntas. El complemento aparece al dividir omega en A y A complemento. La monotonía aparece al dividir B en A y B menos A. La fórmula de la unión aparece al retirar la intersección contada dos veces.
+
+Para demostrar subaditividad, el problema son los solapamientos. La decisión es desjuntar la sucesión: cada D sub n conserva la parte de A sub n que no apareció antes. La unión no cambia y cada D sub n queda contenido en A sub n.
+
+Para demostrar continuidad desde abajo, el problema es relacionar una unión creciente con aditividad numerable. La decisión es convertir los eventos crecientes en incrementos disjuntos. La probabilidad del límite es una serie y las probabilidades de los términos de la sucesión son sus sumas parciales.
+
+Para continuidad desde arriba, evitamos repetir el argumento. Tomamos complementos, obtenemos una sucesión creciente y usamos que la probabilidad total es finita.
+
+Para demostrar probabilidad total, intersectamos A con las celdas de una partición. Obtenemos piezas disjuntas que reconstruyen A. Para Bayes, escribimos la definición del condicionamiento en el orden pedido y reemplazamos el numerador por la regla del producto y el denominador por probabilidad total.
+
+Método de estudio. Intente reconstruir cada prueba a partir de una sola pregunta. Complemento: ¿cómo se descompone omega? Monotonía: ¿cómo se descompone B? Subaditividad: ¿cómo retiro solapamientos? Continuidad creciente: ¿cuáles son los incrementos? Probabilidad total: ¿cómo corta una partición al evento A? Bayes: ¿qué representa el numerador y cómo obtengo el denominador?
+
+Fin de la pista nueve y del repaso comentado de la sesión uno.

@@ -1,0 +1,80 @@
+=== PISTA 01: INSTRUCCIONES ===
+Teoría de la Probabilidad. Prueba de entrada de la primera semana.
+
+Este diagnóstico es individual, dura cuarenta minutos y no tiene nota. Su propósito es identificar qué preliminares debemos recuperar. Trabaje sin apuntes ni calculadora. Explique sus pasos. Si no recuerda un resultado, indique lo que sí puede justificar. Puede responder usando fracciones.
+
+La prueba tiene seis problemas. Solicite al docente el medio accesible acordado para registrar sus respuestas. El docente puede repetir cualquier enunciado sin explicar su solución.
+
+Fin de las instrucciones.
+
+=== PISTA 02: PROBLEMA D UNO, CONJUNTOS ===
+Problema D uno. Conjuntos y razonamiento. Tres puntos diagnósticos.
+
+Sean A, B y C subconjuntos de un universo omega.
+
+Parte a. Escriba el complemento de A unión B usando complementos e intersección.
+
+Parte b. Demuestre, mediante pertenencia de un elemento, que A intersección abre paréntesis B unión C cierra paréntesis es igual a abre paréntesis A intersección B cierra paréntesis unión abre paréntesis A intersección C cierra paréntesis.
+
+Fin del problema D uno.
+
+=== PISTA 03: PROBLEMA D DOS, MODELO FINITO ===
+Problema D dos. Modelo finito. Tres puntos diagnósticos.
+
+Una urna contiene tres bolas rojas y dos azules. Se extraen dos bolas sin reposición, eligiendo cada vez uniformemente entre las bolas restantes.
+
+Parte a. Calcule la probabilidad de que ambas bolas extraídas sean rojas.
+
+Parte b. Calcule la probabilidad de obtener exactamente una bola roja y una azul. Justifique que contó todos los órdenes pertinentes.
+
+Fin del problema D dos.
+
+=== PISTA 04: PROBLEMA D TRES, TABLA CONJUNTA ===
+Problema D tres. Probabilidad condicional a partir de una tabla. Tres puntos diagnósticos.
+
+La tabla contiene probabilidades conjuntas de dos eventos A y B. Escuche las cuatro celdas.
+
+A intersección B tiene probabilidad cero punto doce. A intersección B complemento tiene probabilidad cero punto dieciocho. A complemento intersección B tiene probabilidad cero punto cero ocho. A complemento intersección B complemento tiene probabilidad cero punto sesenta y dos.
+
+Calcule probabilidad de A, probabilidad de B y probabilidad de A condicionada a B. Indique qué representa el denominador de la última expresión.
+
+Fin del problema D tres.
+
+=== PISTA 05: PROBLEMA D CUATRO, MEDIBILIDAD ===
+Problema D cuatro. Medibilidad. Tres puntos diagnósticos.
+
+El espacio omega contiene uno, dos, tres y cuatro. La sigma álgebra efe contiene el vacío, omega, el conjunto uno coma dos y el conjunto tres coma cuatro.
+
+La función X toma los valores uno, uno, dos y dos en los resultados uno, dos, tres y cuatro, respectivamente.
+
+La función Y toma los valores uno, dos, uno y dos en los resultados uno, dos, tres y cuatro, respectivamente.
+
+¿Cuál de las dos funciones es medible hacia la recta con sus borelianos? Justifique mediante preimágenes. No basta afirmar que el dominio es finito.
+
+Fin del problema D cuatro.
+
+=== PISTA 06: PROBLEMA D CINCO, INTEGRACIÓN ===
+Problema D cinco. Integración y normalización. Cuatro puntos diagnósticos.
+
+Sea f de x igual a c por x por la indicadora del intervalo abierto de cero a dos. Es decir, f vale c por x cuando x está entre cero y dos, y vale cero fuera de ese intervalo.
+
+Parte a. Determine c para que f sea no negativa y la integral de f sobre la recta sea uno.
+
+Parte b. Con ese valor de c, calcule la integral de f desde cero hasta uno.
+
+Fin del problema D cinco.
+
+=== PISTA 07: PROBLEMA D SEIS, CONVERGENCIA ===
+Problema D seis. Convergencia e integración. Cuatro puntos diagnósticos.
+
+En el intervalo de cero a uno con medida de Lebesgue, sea f sub n de x igual a x elevado a n, para n mayor o igual que uno.
+
+Parte a. Determine el límite puntual, incluyendo el valor en x igual a uno.
+
+Parte b. Calcule la integral desde cero hasta uno de f sub n de x respecto de x y calcule su límite cuando n tiende a infinito.
+
+Parte c. ¿Se puede aplicar el teorema de convergencia dominada? Si responde que sí, indique una función dominante y verifique su integrabilidad. Si responde que no, explique qué hipótesis falla.
+
+Al terminar, indique qué área necesita recuperar primero: cálculo, probabilidad o teoría de la medida.
+
+Fin de la prueba de entrada sonora.

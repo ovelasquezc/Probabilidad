@@ -1,0 +1,9 @@
+Problema D cinco. Integración y normalización. Cuatro puntos diagnósticos.
+
+Sea f de x igual a c por x por la indicadora del intervalo abierto de cero a dos. Es decir, f vale c por x cuando x está entre cero y dos, y vale cero fuera de ese intervalo.
+
+Parte a. Determine c para que f sea no negativa y la integral de f sobre la recta sea uno.
+
+Parte b. Con ese valor de c, calcule la integral de f desde cero hasta uno.
+
+Fin del problema D cinco.

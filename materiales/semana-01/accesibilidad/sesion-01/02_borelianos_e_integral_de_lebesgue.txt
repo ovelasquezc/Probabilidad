@@ -1,0 +1,21 @@
+Sesión uno, pista dos. Recordatorio sucinto de borelianos e integral de Lebesgue.
+
+La clausura bajo complementos y uniones numerables de una sigma álgebra implica otras operaciones. El conjunto vacío es medible. Las intersecciones numerables son medibles por las leyes de De Morgan. La diferencia A menos B es la intersección de A con el complemento de B y también es medible.
+
+En la recta real, la sigma álgebra de Borel, denotada B de R, es la sigma álgebra generada por los conjuntos abiertos. Se puede reconstruir a partir de familias más pequeñas. La generan todos los intervalos abiertos. También la generan los intervalos semiabiertos de la forma abre paréntesis a, b, cierra corchete. También la generan las semirrectas menos infinito, equis, con el extremo equis incluido. Incluso basta usar extremos racionales.
+
+Veamos dos reconstrucciones. El intervalo semiabierto abre paréntesis a, b, cierra corchete es la diferencia entre la semirrecta hasta b y la semirrecta hasta a. Para obtener el intervalo abierto de a a b, tomamos una unión numerable de intervalos semiabiertos cuyo extremo derecho se acerca a b desde la izquierda. De esta manera, las operaciones permitidas por una sigma álgebra llevan de las semirrectas a los abiertos y luego a todos los borelianos.
+
+Recordemos ahora la construcción de la integral de Lebesgue. Primer escalón: si A es medible, la integral de su función indicadora es la medida de A. Segundo escalón: si s es una función simple no negativa, escrita como una suma finita de constantes a sub k multiplicadas por indicadores de conjuntos disjuntos A sub k, su integral es la suma de a sub k por la medida de A sub k.
+
+Tercer escalón: si f es medible y no negativa, la aproximamos desde abajo por funciones simples s sub n que crecen puntualmente hacia f. La integral de f es el límite de las integrales de s sub n. Equivalentemente, es el supremo de las integrales de todas las funciones simples no negativas dominadas por f. El teorema de convergencia monótona garantiza la coherencia del paso al límite.
+
+Cuarto escalón: para una función real medible f, se escribe f igual a f positiva menos f negativa. La integral es la diferencia entre las integrales de esas partes siempre que la resta esté definida. La función es integrable cuando la integral de su valor absoluto es finita.
+
+En probabilidad usaremos la medida P. La esperanza de una variable aleatoria integrable será su integral respecto de P. También usaremos la medida de Lebesgue, denotada lambda, al trabajar con densidades.
+
+Dos modelos de referencia. En un espacio finito o numerable, elegimos masas no negativas p sub omega cuya suma sea uno. La probabilidad de un evento es la suma de las masas de sus resultados. En el intervalo de cero a uno, con sus borelianos, podemos usar la medida de Lebesgue: la probabilidad de un intervalo de a a b es b menos a. No asignamos esta medida a todos los subconjuntos de cero a uno.
+
+Pregunta de control. Enumere los cuatro escalones de la construcción de la integral: indicadores, funciones simples, funciones no negativas y funciones con signo. Detenga el audio para responder.
+
+Fin de la pista dos.

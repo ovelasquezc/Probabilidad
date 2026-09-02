@@ -14,7 +14,7 @@ Material para estudiantes de la Escuela Profesional de Matemática de la Univers
 
 | Semana | Notas de teoría | Bloque práctico o trabajo autónomo |
 | --- | --- | --- |
-| 1 | [Modelos, sucesos, variables y leyes](materiales/semana-01/01-notas-semana-01.pdf) | [Ejercicios](materiales/semana-01/02-lista-ejercicios-semana-01.pdf) · [Prueba de entrada](materiales/semana-01/03-prueba-entrada-semana-01.pdf) |
+| 1 | [Modelos, sucesos, variables y leyes](materiales/semana-01/01-notas-semana-01.pdf) · [Versión sonora accesible](materiales/semana-01/accesibilidad/html/index.html) | [Ejercicios](materiales/semana-01/02-lista-ejercicios-semana-01.pdf) · [Prueba de entrada](materiales/semana-01/03-prueba-entrada-semana-01.pdf) · [Paquete accesible](materiales/semana-01/Semana_01_piloto_accesible.zip) |
 | 2 | [Integración y distribuciones conjuntas](materiales/semana-02/01-notas-semana-02.pdf) | [Práctica](materiales/semana-02/02-practica-semana-02.pdf) |
 | 3 | [Transformaciones y vectores aleatorios](materiales/semana-03/01-notas-semana-03.pdf) | [Trabajo autónomo](materiales/semana-03/02-trabajo-autonomo-semana-03.pdf) |
 | 4 | [Modos de convergencia](materiales/semana-04/01-notas-semana-04.pdf) | [Práctica](materiales/semana-04/02-practica-semana-04.pdf) |

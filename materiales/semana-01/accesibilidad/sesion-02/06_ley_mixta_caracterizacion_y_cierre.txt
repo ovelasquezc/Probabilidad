@@ -1,0 +1,23 @@
+Sesión dos, pista seis. Ley mixta y cierre.
+
+Sea q un número entre cero y uno. Construimos una ley con masa q en cero y con la masa restante, uno menos q, distribuida uniformemente entre uno y tres. Para un boreliano C, su medida es q si C contiene a cero, más uno menos q dividido entre dos, multiplicado por la longitud de la parte de C que cae entre uno y tres.
+
+En el modelo canónico, omega es la recta, la probabilidad es esta medida y X es la identidad. Para calcular F usamos el evento menos infinito hasta x, con x incluido.
+
+Si x es menor que cero, F vale cero. Si x está entre cero incluido y uno excluido, F vale q debido al átomo en cero. Si x está entre uno incluido y tres excluido, F vale q más uno menos q por x menos uno, dividido entre dos. Si x es mayor o igual que tres, F vale uno.
+
+La función tiene un salto q en cero y una parte lineal continua entre uno y tres. No existe una densidad global respecto de Lebesgue, porque la integral de cualquier función sobre el singleton cero es cero, mientras que esta ley asigna masa q a cero.
+
+Compare dos eventos. B es «cero menor que X y X menor o igual que dos». C es «cero menor o igual que X y X menor o igual que dos». C contiene además el átomo X igual a cero. Probabilidad de B es uno menos q dividido entre dos. Probabilidad de C es q más uno menos q dividido entre dos.
+
+Terminamos con la caracterización de las funciones de distribución. Enunciado. Si F toma valores entre cero y uno, es no decreciente, continua por la derecha y tiene límites cero y uno en los extremos de la recta, existe una única probabilidad mu tal que mu de la semirrecta hasta x es F de x.
+
+Idea de existencia. Tomamos U uniforme entre cero y uno y definimos el cuantil generalizado Q de u como el ínfimo de los x para los que F de x es mayor o igual que u. La continuidad por la derecha permite mostrar que el ínfimo alcanza el nivel. Se demuestra la equivalencia: Q de u menor o igual que x si y solo si u menor o igual que F de x. Por ello, probabilidad de Q de U menor o igual que x es F de x.
+
+Idea de unicidad. Si dos probabilidades tienen la misma F, coinciden en todas las semirrectas hasta x. Esas semirrectas forman un sistema pi y generan los borelianos. El teorema pi lambda extiende la igualdad a toda la sigma álgebra.
+
+Resumen de la sesión. Una variable aleatoria es una función medible. Su ley es una probabilidad sobre el espacio de valores. La función de distribución registra la masa de las semirrectas y determina la ley. Las leyes pueden ser discretas, tener densidad o mezclar una parte atómica con otra continua.
+
+Preguntas de salida. Uno: ¿qué papel desempeñan las preimágenes en la medibilidad? Dos: ¿cómo se recupera la masa de un punto a partir de F? Tres: ¿por qué una función de distribución continua puede, aun así, carecer de densidad?
+
+Fin de la sesión dos.

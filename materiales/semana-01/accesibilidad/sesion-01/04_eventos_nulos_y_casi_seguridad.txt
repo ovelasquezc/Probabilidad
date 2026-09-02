@@ -1,0 +1,15 @@
+Sesión uno, pista cuatro. Nulo no significa vacío.
+
+Un evento nulo es un evento de probabilidad cero. Una propiedad ocurre casi seguramente si el evento donde falla es nulo.
+
+Consideremos el modelo uniforme sobre el intervalo de cero a uno. El espacio es el intervalo, los eventos son sus borelianos y la probabilidad es la medida de Lebesgue. El evento «el resultado es exactamente un medio» es el conjunto que contiene solo al número un medio. Este evento no está vacío, pero su probabilidad es cero.
+
+El evento «el resultado es racional» es la intersección de los racionales con el intervalo de cero a uno. Los racionales son numerables. Podemos escribir ese evento como una unión numerable de conjuntos de un solo punto. Cada uno tiene probabilidad cero. Por subaditividad, la unión tiene probabilidad cero. En consecuencia, el resultado es irracional casi seguramente.
+
+No podemos reemplazar «unión numerable» por «unión arbitraria». El intervalo completo es la unión no numerable de todos sus conjuntos de un solo punto. Cada singleton es nulo, pero el intervalo tiene probabilidad uno.
+
+Hay además una sutileza de medibilidad. En un espacio de medida que no sea completo, un subconjunto de un evento nulo puede no pertenecer a la sigma álgebra. Solo asignamos probabilidades a los eventos medibles.
+
+Pregunta de control. Dé un ejemplo de un evento no vacío de probabilidad cero y explique por qué no contradice los axiomas.
+
+Fin de la pista cuatro.

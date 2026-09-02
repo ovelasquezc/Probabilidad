@@ -1,0 +1,15 @@
+Sesión dos, pista nueve. Mapa de estudio.
+
+Para demostrar medibilidad mediante semirrectas, la decisión central es reunir todos los conjuntos del espacio de llegada cuya preimagen es medible. Esa colección es una sigma álgebra. Si contiene una familia generadora, contiene todos los borelianos.
+
+Para demostrar que la ley de X es una probabilidad, trasladamos las operaciones mediante preimágenes. La preimagen de una unión es la unión de las preimágenes. La preimagen de conjuntos disjuntos produce eventos disjuntos. La aditividad se hereda de P.
+
+Para demostrar propiedades de F, nunca manipulamos F de manera aislada. Volvemos a los eventos X menor o igual que x. La monotonía proviene de inclusiones. Los límites y la continuidad por la derecha provienen de continuidad de la probabilidad. Los saltos provienen de una unión disjunta entre X menor que x y X igual a x.
+
+Para construir una ley desde una función F, usamos el cuantil generalizado. La equivalencia entre Q de u menor o igual que x y u menor o igual que F de x transforma una uniforme en la ley deseada.
+
+Para probar unicidad, basta verificar igualdad sobre las semirrectas y extenderla mediante el teorema pi lambda. Esta es la razón estructural por la que conocer F determina todas las probabilidades borelianas.
+
+Método de estudio. Ante cualquier fórmula sobre una variable, pregunte cuál es el evento preimagen. Ante cualquier límite de F, identifique si los eventos crecen o decrecen. Ante una supuesta densidad, compruebe no negatividad, integral uno y si explica toda la masa, incluidos posibles átomos.
+
+Fin de la pista nueve y del repaso comentado de la sesión dos.

@@ -1,0 +1,25 @@
+Teoría de la Probabilidad, semana uno, sesión dos. Variables y leyes.
+
+Objetivos. Recordar el teorema pi lambda. Separar una variable aleatoria de su ley. Verificar medibilidad mediante preimágenes. Demostrar las propiedades de una función de distribución. Distinguir leyes discretas, leyes con densidad y leyes mixtas.
+
+Regla de trabajo. Para una pregunta sobre una variable X, escribiremos primero el modelo, la definición de X y el evento como preimagen. La expresión «X menor o igual que x» significa el conjunto de resultados omega para los que X de omega es menor o igual que x. La probabilidad se aplica a ese evento.
+
+Definición. Sea E un conjunto. Una familia no vacía P caligráfica de subconjuntos de E es un sistema pi si es cerrada bajo intersecciones finitas. Es decir, si A y B pertenecen a P caligráfica, entonces A intersección B también pertenece.
+
+Una familia D caligráfica es un sistema de Dynkin, también llamado sistema lambda, si cumple tres propiedades. Primera: E pertenece a D. Segunda: si A pertenece a D, su complemento respecto de E pertenece a D. Tercera: si A sub uno, A sub dos y así sucesivamente pertenecen a D y son disjuntos dos a dos, entonces su unión numerable pertenece a D.
+
+Denotamos lambda de P al menor sistema de Dynkin que contiene a P. Puede construirse como la intersección de todos los sistemas de Dynkin que contienen a P.
+
+Teorema de Dynkin, o teorema pi lambda. Si P es un sistema pi sobre E, el sistema de Dynkin generado por P coincide con la sigma álgebra generada por P. En símbolos: lambda de P igual a sigma de P.
+
+Una forma práctica de usarlo es esta: si D es un sistema de Dynkin que contiene al sistema pi P, entonces D contiene toda la sigma álgebra generada por P.
+
+Teorema de unicidad de probabilidades. Sean mu y nu dos probabilidades sobre la sigma álgebra generada por un sistema pi P. Si mu de A es igual a nu de A para todo A en P, entonces mu y nu coinciden sobre toda la sigma álgebra.
+
+La demostración se organiza definiendo D como la colección de conjuntos donde mu y nu coinciden. Como ambas medidas tienen masa total uno, D contiene al espacio y es cerrada bajo complementos. Por aditividad, también es cerrada bajo uniones numerables disjuntas. Por tanto D es un sistema de Dynkin. Contiene P por hipótesis. El teorema pi lambda implica que contiene sigma de P.
+
+Consecuencia en la recta. La familia formada por la recta real y todas las semirrectas desde menos infinito hasta x, con x incluido, es un sistema pi y genera los borelianos. Dos probabilidades que coinciden en todas esas semirrectas coinciden en todos los borelianos. Esta observación probará que una función de distribución determina una única ley.
+
+Pregunta de control. ¿Qué propiedad adicional tiene un sistema pi que no se exige en la definición de un sistema de Dynkin? Detenga el audio para responder.
+
+Fin de la pista uno.

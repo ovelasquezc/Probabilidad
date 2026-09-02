@@ -1,0 +1,9 @@
+Problema D tres. Probabilidad condicional a partir de una tabla. Tres puntos diagnósticos.
+
+La tabla contiene probabilidades conjuntas de dos eventos A y B. Escuche las cuatro celdas.
+
+A intersección B tiene probabilidad cero punto doce. A intersección B complemento tiene probabilidad cero punto dieciocho. A complemento intersección B tiene probabilidad cero punto cero ocho. A complemento intersección B complemento tiene probabilidad cero punto sesenta y dos.
+
+Calcule probabilidad de A, probabilidad de B y probabilidad de A condicionada a B. Indique qué representa el denominador de la última expresión.
+
+Fin del problema D tres.

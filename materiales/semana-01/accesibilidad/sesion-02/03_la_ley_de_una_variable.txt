@@ -1,0 +1,17 @@
+Sesión dos, pista tres. La ley es una medida sobre el espacio de valores.
+
+Definición. La ley de X, denotada mu sub X, asigna a cada boreliano C la probabilidad del evento «X pertenece a C». Equivalentemente, mu sub X de C es P de la preimagen de C mediante X.
+
+Verificación. La ley es una probabilidad. La preimagen de la recta completa es omega, por lo que su masa es uno. Las masas son no negativas. Si los C sub n son borelianos disjuntos, sus preimágenes también son disjuntas y la preimagen de la unión es la unión de las preimágenes. La aditividad de P produce la aditividad de mu sub X.
+
+Volvamos a los dos lanzamientos de moneda. Ahora definimos N como el número de caras. N de cero cero vale cero. N de cero uno y N de uno cero valen uno. N de uno uno vale dos. Las preimágenes de cero, uno y dos son los eventos A sub cero, A sub uno y A sub dos de la sesión anterior. La ley de N asigna un cuarto a cero, un medio a uno y un cuarto a dos.
+
+No confunda tres objetos. X es una función definida sobre omega. X de omega es un valor observado. Mu sub X es una medida sobre la recta. Dos variables pueden tener la misma ley y, sin embargo, ser funciones diferentes.
+
+Ejemplo. En el intervalo de cero a uno con probabilidad uniforme, definimos U de omega igual a omega y V de omega igual a uno menos omega. Para x entre cero y uno, el evento U menor o igual que x es el intervalo desde cero hasta x. Su probabilidad es x. El evento V menor o igual que x es el intervalo desde uno menos x hasta uno. Su probabilidad también es x. U y V tienen la misma ley uniforme.
+
+Sin embargo, U y V solo son iguales cuando omega es un medio. Ese evento tiene probabilidad cero. Incluso se cumple U más V igual a uno para todo omega. La ley marginal de cada variable no conserva la relación entre ambas.
+
+Pregunta de control. Explique la diferencia entre el evento «X pertenece a C» y el número mu sub X de C.
+
+Fin de la pista tres.

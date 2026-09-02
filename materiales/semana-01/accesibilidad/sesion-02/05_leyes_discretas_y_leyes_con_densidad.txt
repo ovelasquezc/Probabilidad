@@ -1,0 +1,21 @@
+Sesión dos, pista cinco. Dos tipos de ley.
+
+Una ley es discreta si existe un conjunto finito o numerable de valores x sub uno, x sub dos y así sucesivamente que contiene a X con probabilidad uno. Si p sub k es la probabilidad de X igual a x sub k, la ley de un boreliano C es la suma de p sub k sobre los valores que pertenecen a C. La función de distribución suma las masas de todos los x sub k menores o iguales que x.
+
+Ejemplo Bernoulli. Sea A un evento y defina X igual a la indicadora de A. X vale uno sobre A y cero sobre A complemento. Si p es probabilidad de A, las masas son p en uno y uno menos p en cero.
+
+Para calcular la función de distribución escribimos preimágenes. Si x es menor que cero, el evento X menor o igual que x es vacío y F vale cero. Si x está entre cero incluido y uno excluido, el evento es A complemento y F vale uno menos p. Si x es mayor o igual que uno, el evento es omega y F vale uno. Las masas aparecen como saltos.
+
+Una ley admite densidad respecto de Lebesgue si existe una función medible f, no negativa, cuya integral sobre la recta es uno, y la probabilidad de cada boreliano C es la integral de f sobre C. Entonces F de x es la integral desde menos infinito hasta x de f de t respecto de t. Todo singleton tiene medida de Lebesgue cero, de modo que probabilidad de X igual a x es cero.
+
+La densidad f de x no es la probabilidad de X igual a x. Puede tomar valores mayores que uno. Lo que representa probabilidades son sus integrales. Por el teorema fundamental de la integral de Lebesgue, la derivada de F es igual a f casi en todas partes, no necesariamente en cada punto.
+
+Ejemplo. Sobre la recta, definimos una probabilidad con densidad f de t igual a dos t para t entre cero y uno, y cero fuera. Es no negativa y su integral es uno. Tomamos X igual a la función identidad.
+
+Si x es menor o igual que cero, F de x es cero. Si x está entre cero y uno, integramos dos t desde cero hasta x y obtenemos x al cuadrado. Si x es mayor o igual que uno, F de x es uno.
+
+Pregunta en lenguaje natural: ¿cuál es la probabilidad de que X sea mayor que un medio y menor o igual que uno? El evento es el intervalo abierto en un medio y cerrado en uno. Su probabilidad es F de uno menos F de un medio, igual a uno menos un cuarto, igual a tres cuartos.
+
+Pregunta de control. ¿Puede una densidad valer dos en algún punto? Sí. Explique por qué esto no contradice que las probabilidades estén entre cero y uno.
+
+Fin de la pista cinco.

@@ -1,0 +1,17 @@
+Práctica dirigida, ejercicio nueve.
+
+Una observación vale cero con probabilidad cero punto tres. El resto de su ley es uniforme entre uno y tres. En forma de medida: mu de C es cero punto tres si C contiene a cero, más cero punto treinta y cinco multiplicado por la longitud de la parte de C que cae en el intervalo abierto de uno a tres.
+
+Primera tarea. Obtenga la función de distribución F para todos los números reales y marque su salto.
+
+Segunda tarea. Calcule las siguientes probabilidades: X igual a cero; cero menor que X y X menor o igual que dos; cero menor o igual que X y X menor o igual que dos; y X mayor que dos.
+
+Tercera tarea. Calcule la probabilidad de X menor o igual que dos condicionada a X mayor que cero.
+
+Cuarta tarea. Explique por qué la función cero punto treinta y cinco por la indicadora del intervalo de uno a tres no es una densidad de toda la ley.
+
+Pausa sugerida: veinte minutos.
+
+Pistas, sin solución completa. Divida la recta en los tramos: menor que cero; desde cero hasta uno; desde uno hasta tres; y desde tres en adelante. Al comparar intervalos que incluyen o excluyen cero, recuerde que cero es un átomo. Para el condicionamiento, escriba la intersección del evento preguntado con el evento conocido antes de dividir.
+
+Fin de la práctica sonora.

@@ -1,0 +1,19 @@
+Teoría de la Probabilidad, semana uno. Práctica dirigida.
+
+Esta versión sonora presenta los tres ejercicios previstos para discusión en aula. Antes de calcular, describa el espacio, defina los eventos y verifique los denominadores. Cuando escuche «pausa sugerida», detenga la reproducción y trabaje por escrito, mediante dictado o con el medio que prefiera.
+
+Ejercicio uno. Elegir el espacio no basta para elegir la probabilidad.
+
+Se realizan dos lanzamientos independientes de una moneda equilibrada. El espacio contiene cero cero, cero uno, uno cero y uno uno, con masa un cuarto por resultado. N representa el número de caras.
+
+Parte a. Escriba como subconjuntos del espacio los eventos N igual a uno y N mayor o igual que uno. Calcule sus probabilidades.
+
+Parte b. Si se usa el espacio reducido formado por cero, uno y dos para registrar solamente N, indique las masas correctas. Explique por qué asignar un tercio a cada valor cambia el modelo.
+
+Parte c. Calcule la probabilidad de dos caras sabiendo que hubo al menos una. Compare el resultado con la probabilidad sin esa información.
+
+Pausa sugerida: quince minutos.
+
+Pistas, sin solución completa. En la parte a, no cuente valores posibles; cuente los resultados que pertenecen a cada preimagen. En la parte b, transporte a cada valor la masa de su preimagen. En la parte c, identifique primero el evento condicionante y compruebe que su probabilidad es positiva.
+
+Fin de la pista uno.

@@ -1,0 +1,27 @@
+Sesión dos, pista ocho. Ejemplo resuelto de transformación.
+
+Sea U uniforme en el intervalo de cero a uno. Definimos Y igual a U menos un medio, todo elevado al cuadrado.
+
+Pregunta en lenguaje natural: ¿cuál es la función de distribución de la distancia cuadrática de U al punto medio del intervalo?
+
+No comenzamos derivando una fórmula. Para cada real y, identificamos el evento Y menor o igual que y. Es el conjunto de resultados u para los que el cuadrado de u menos un medio es menor o igual que y.
+
+Si y es negativo, el evento es vacío porque un cuadrado no puede ser negativo. Por tanto F sub Y de y es cero.
+
+Supongamos ahora y mayor o igual que cero. La desigualdad cuadrática equivale a valor absoluto de u menos un medio menor o igual que raíz cuadrada de y. Esto equivale a u entre un medio menos raíz de y y un medio más raíz de y.
+
+Pero u debe permanecer dentro de cero y uno. Si y está entre cero y un cuarto, la raíz está entre cero y un medio y el intervalo queda dentro del espacio. Su longitud es dos raíz cuadrada de y. Como U es uniforme, F sub Y de y es dos raíz cuadrada de y.
+
+Si y es mayor o igual que un cuarto, todo u entre cero y uno satisface la desigualdad, porque la distancia máxima al punto medio es un medio y su cuadrado es un cuarto. La función de distribución vale uno.
+
+En resumen: F sub Y de y vale cero para y menor que cero; vale dos raíz de y para y entre cero y un cuarto; y vale uno desde un cuarto en adelante.
+
+La función es continua, de modo que Y no tiene átomos. En el intervalo abierto de cero a un cuarto podemos derivar y obtener una densidad f sub Y de y igual a uno dividido entre raíz cuadrada de y. Fuera de ese intervalo es cero.
+
+La densidad crece sin cota cuando y se acerca a cero. Esto no es un problema. Su integral desde cero hasta un cuarto es dos raíz de un cuarto, igual a uno. Una densidad puede ser no acotada siempre que sea integrable.
+
+Dos consultas. La probabilidad de Y igual a cero es cero, porque corresponde únicamente a U igual a un medio. La probabilidad de Y menor o igual que un dieciseisavo es dos por la raíz de un dieciseisavo, igual a dos por un cuarto, igual a un medio.
+
+Pregunta de control. ¿Por qué la fórmula dos raíz de y deja de usarse cuando y supera un cuarto?
+
+Fin de la pista ocho.

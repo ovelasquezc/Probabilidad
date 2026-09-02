@@ -1,0 +1,23 @@
+Sesión dos, pista dos. Una variable es una función medible.
+
+Una frase provocadora dice: «Una variable aleatoria ni es variable ni es aleatoria». La variable X es una función fija. A cada resultado omega le asigna un valor X de omega. Lo que varía entre realizaciones es el resultado del experimento. La incertidumbre proviene de que no sabemos qué omega ocurrirá.
+
+Definición. Una variable aleatoria real es una aplicación medible X desde el espacio medible omega, efe, hacia la recta real con su sigma álgebra de Borel. Medibilidad significa que, para todo boreliano C, la preimagen de C mediante X pertenece a efe.
+
+La notación «X pertenece a C» abrevia la preimagen de C. Es el conjunto de todos los omega tales que X de omega pertenece a C. La notación «X menor o igual que x» abrevia la preimagen de la semirrecta desde menos infinito hasta x. La medibilidad garantiza que las preguntas sobre la observación corresponden a eventos con probabilidad definida.
+
+Proposición cinco, criterio práctico. X es medible si y solo si el evento «X menor o igual que x» pertenece a efe para cada número real x.
+
+Demostración. Si X es medible, la condición se cumple porque cada semirrecta es boreliana.
+
+Para la implicación inversa, definimos C caligráfica como la familia de subconjuntos C de la recta cuya preimagen por X pertenece a efe. Las preimágenes preservan complementos y uniones numerables. Por tanto, C caligráfica es una sigma álgebra. Por hipótesis contiene todas las semirrectas hasta x. Como esas semirrectas generan los borelianos, C caligráfica contiene la sigma álgebra de Borel. En consecuencia, la preimagen de todo boreliano es medible y X es medible. Fin de la demostración.
+
+Ejemplo: una observación demasiado fina. El espacio omega contiene uno, dos, tres y cuatro. La sigma álgebra contiene el vacío, omega, el bloque formado por uno y dos, y el bloque formado por tres y cuatro. Esta sigma álgebra representa información que permite distinguir los dos bloques, pero no los elementos dentro de cada bloque.
+
+Definimos X: X de uno y X de dos valen cero; X de tres y X de cuatro valen uno. Las preimágenes de cero y uno son precisamente los dos bloques medibles. X es medible.
+
+Definimos Y: Y de uno y Y de tres valen cero; Y de dos y Y de cuatro valen uno. El evento «Y menor o igual que cero» contiene uno y tres. Ese conjunto no pertenece a la sigma álgebra. Y no es medible. Pretende distinguir resultados que la información del modelo no distingue.
+
+Pregunta de control. En el ejemplo, ¿qué condición deben satisfacer los valores de cualquier función medible sobre cada uno de los dos bloques? Detenga el audio para responder.
+
+Fin de la pista dos.
