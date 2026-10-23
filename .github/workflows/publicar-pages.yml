@@ -6,6 +6,7 @@ on:
     paths:
       - "materiales/semana-01/accesibilidad/**"
       - "materiales/semana-01/Semana_01_piloto_accesible.zip"
+      - "silabo/**"
       - ".github/workflows/publicar-pages.yml"
   workflow_dispatch:
 
@@ -41,6 +42,7 @@ jobs:
           cp -R "$source_dir/sesion-02" _site/sesion-02
           cp -R "$source_dir/practica" _site/practica
           cp -R "$source_dir/prueba-entrada" _site/prueba-entrada
+          cp -R silabo _site/silabo
           cp materiales/semana-01/Semana_01_piloto_accesible.zip _site/
           touch _site/.nojekyll
 
