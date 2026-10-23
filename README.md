@@ -14,6 +14,8 @@ Material para estudiantes de la Escuela Profesional de Matemática de la Univers
 
 [Sílabo de Teoría de la Probabilidad CM4H1 · 2026-2](silabo/CM4H1_Silabo_2026_2.pdf)
 
+[Fuente LaTeX](silabo/CM4H1_Silabo_2026_2.tex) · [Logo UNI en PNG](silabo/UNI_granate.png)
+
 ## Material semanal
 
 | Semana | Notas de teoría | Bloque práctico o trabajo autónomo |

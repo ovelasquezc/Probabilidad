@@ -1,0 +1,93 @@
+% Fuente LaTeX del silabo CM4H1 - Periodo 2026-2.
+% Compilar con: tectonic CM4H1_Silabo_2026_2.tex
+\documentclass[10pt,a4paper]{article}
+\usepackage[spanish,es-noshorthands]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage[left=23mm,right=23mm,top=16mm,bottom=15mm]{geometry}
+\usepackage{array,enumitem,ragged2e}
+\pagestyle{plain}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3.2pt}
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.04}
+\newcommand{\seccion}[1]{\vspace{5pt}\noindent\textbf{#1}\par\vspace{2pt}}
+\newcommand{\unidad}[1]{\vspace{3pt}\noindent\textbf{#1}\par\vspace{1pt}}
+\begin{document}
+\begin{minipage}[c]{0.12\textwidth}
+\includegraphics[width=18mm]{UNI_granate.png}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.74\textwidth}
+{\Large\bfseries UNIVERSIDAD NACIONAL DE INGENIERÍA}\par
+{\large\bfseries Facultad de Ciencias}
+\end{minipage}\hfill\mbox{}
+
+\vspace{8mm}
+\begin{center}\Large\bfseries SÍLABO\end{center}
+\fontsize{9.25}{10.9}\selectfont
+
+\seccion{I.\quad INFORMACIÓN GENERAL}
+\begin{tabular}{@{}p{55mm}@{\,:\,}p{106mm}@{}}
+Curso & Teoría de la Probabilidad\\
+Código & CM4H1\\
+Pre-requisito & CM2H2 (Estadística Inferencial) y CM3C2 (Teoría de la Medida)\\
+Dpto. Académico & Matemática\\
+Condición & Obligatorio\\
+Ciclo / Periodo académico & VIII / 2026-2\\
+Créditos & 5\\
+Horas teóricas & 4 horas semanales, en dos bloques de 2 horas\\
+Horas prácticas & 2 horas semanales\\
+Sistema de evaluación & G\\
+Docente de teoría y prácticas & Oswaldo Velásquez Castañón\\
+Categoría & Profesor Principal de la EPM\\
+Código docente & 20038822B
+\end{tabular}
+
+\seccion{II.\quad SUMILLA}
+El curso pertenece al área de Probabilidad y Procesos Estocásticos y es de naturaleza teórico-práctica. Desarrolla la probabilidad rigurosa con motivación estadística y prepara el estudio posterior de procesos estocásticos. La teoría de la medida se utiliza como prerrequisito mediante recordatorios; se enfatizan demostraciones, modelos, ejemplos y problemas.
+
+Comprende modelos, variables y distribuciones; convergencias, leyes de los grandes números y teorema central del límite; esperanza condicional y predicción; vectores gaussianos y leyes de muestreo; integrabilidad uniforme, martingalas discretas e introducción a cadenas de Markov finitas.
+
+\seccion{III.\quad COMPETENCIAS}
+\begin{enumerate}[leftmargin=8mm,itemsep=1pt,topsep=1pt]
+\item Formula modelos probabilísticos, determina leyes y calcula momentos, transformaciones y covarianzas, explicitando las hipótesis de medida e integrabilidad.
+\item Compara los modos de convergencia, reconstruye las pruebas de las leyes de los grandes números y del TCL desarrolladas en clase, y justifica sus aplicaciones.
+\item Caracteriza y calcula esperanzas condicionales, y demuestra su propiedad de mejor predictor en $L^2$ y la descomposición de la varianza.
+\item Deduce independencia y condicionamiento gaussianos, y obtiene las leyes de la media y la varianza de una muestra normal.
+\item Aplica parada y convergencia de martingalas con sus hipótesis, y calcula transiciones y distribuciones estacionarias en ejemplos de cadenas finitas.
+\end{enumerate}
+
+\seccion{IV.\quad UNIDADES DE APRENDIZAJE}
+\unidad{UNIDAD 1: Modelos, variables y distribuciones (semanas 1--3)}
+Espacios de probabilidad y continuidad. Condicionamiento por eventos y Bayes. Variables, leyes y funciones de distribución. Esperanza, momentos, Jensen, Markov y Chebyshev. Independencia, ley conjunta y convolución. Transformaciones, familias básicas, vectores, covarianza y muestras i.i.d.
+
+\unidad{UNIDAD 2: Convergencias y teoremas límite (semanas 4--7)}
+Convergencia casi segura, en probabilidad y en $L^p$. Ley débil, Borel--Cantelli, desigualdad maximal de Kolmogorov, series independientes y truncamiento. Ley fuerte i.i.d. integrable. Convergencia en distribución, mapeo continuo y Slutsky. Funciones características, unicidad y continuidad de Lévy. TCL i.i.d. con varianza finita y aplicaciones.
+
+\unidad{UNIDAD 3: Condicionamiento y predicción (semanas 8--9)}
+Radon--Nikodym como recordatorio. Esperanza condicional: existencia, unicidad, torre, extracción de factores y Jensen. Proyección en $L^2$, mejor predicción y varianza total. Predicción lineal y condicional; mezclas y sumas aleatorias.
+
+\unidad{UNIDAD 4: Vectores gaussianos y leyes de muestreo (semanas 10--11)}
+Construcción lineal y covarianza de vectores gaussianos; independencia y ley condicional. Proyecciones ortogonales, gamma y chi-cuadrado. Caso de Cochran para proyectores ortogonales. Muestra normal: independencia de media y varianza y ley de Student.
+
+\unidad{UNIDAD 5: Integrabilidad uniforme, martingalas y Markov (semanas 12--14)}
+Integrabilidad uniforme y convergencia en $L^1$. Filtraciones, martingalas y submartingalas; parada acotada, desigualdades de Doob y convergencia. Introducción a cadenas finitas: transiciones, Chapman--Kolmogorov, estacionariedad y periodicidad en ejemplos. Se destinan 10 h a UI y martingalas y 2 h a Markov en la última sesión teórica.
+
+\seccion{V.\quad METODOLOGÍA}
+Clases en pizarra, pruebas centrales, ejemplos y contraejemplos. Separatas en español con desarrollos técnicos completos y listas de ejercicios en el aula virtual, incluidas distribuciones complementarias. Se programan 14 semanas: 56 h de teoría y 28 h de práctica, con nueve prácticas dirigidas y cinco calificadas. Diagnóstico inicial sin nota.
+
+\seccion{VI.\quad SISTEMA DE EVALUACIÓN}
+\textbf{Sistema G.} EP: examen parcial; EF: examen final; PP: promedio de prácticas; NF: nota final. EP, EF y PP tienen igual peso.
+\[
+\textbf{NF = (EP + EF + PP) / 3}
+\]
+Se programan \textbf{cinco (05) prácticas calificadas}, en las semanas lectivas 3, 6, 9, 11 y 13. PP es el promedio de las cuatro mejores; las PC forman parte de las horas prácticas. El EP evalúa las unidades 1--2 después de la semana lectiva 7; el EF evalúa las unidades 3--5, utilizando fundamentos previos, después de la semana 14. Los exámenes se realizan fuera de las 14 semanas lectivas; el sustitutorio se rige por el calendario y la normativa de la Universidad.
+
+\seccion{VII.\quad BIBLIOGRAFÍA}
+Durrett, R. (2013). \textit{Probability: Theory and Examples}, versión 4.1. Capítulos 1--3, 5 y 6; apéndice A.\par
+Saporta, G. (2006). \textit{Probabilités, analyse des données et statistique}, 2.ª edición revisada y aumentada. Technip. Selección de los capítulos 1--4.\par
+Sheffield, S. (2014). \textit{18.175 Theory of Probability}. MIT OpenCourseWare. Notas de clase seleccionadas. \url{https://ocw.mit.edu/courses/18-175-theory-of-probability-spring-2014/}
+\end{document}
