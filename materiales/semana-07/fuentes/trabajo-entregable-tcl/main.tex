@@ -1,0 +1,108 @@
+\input{preambulo.tex}
+\begin{document}
+\encabezado{Trabajo entregable}{Actividad individual \textperiodcentered{} 20 puntos}
+\textbf{Apellidos y nombres:} \hrulefill\quad \textbf{Código:} \rule{27mm}{0.4pt}
+
+\textbf{Propósito.} Desarrollar una prueba alternativa del TCL y resolver problemas de transferencia que requieren argumentos distintos de los desarrollados en las notas y la práctica de la semana 7.
+
+\textbf{Entrega.} Un PDF legible con cinco soluciones numeradas. Justifique cada paso al límite, indique las hipótesis utilizadas y distinga resultados exactos de aproximaciones. Dedicación orientativa: 6 a 8 horas. Puede usar calculadora o software para los valores numéricos, indicando cuál.
+
+\textbf{Herramientas.} Puede citar resultados de clase sin reproducir sus pruebas. En el problema 1 se debe desarrollar el reemplazo gaussiano: no se admite sustituirlo por la expansión de la función característica y el límite de potencias de las notas. En los problemas 2--5 puede aplicar el TCL. No se utiliza Slutsky. Escriba $\Phi$ para la distribución normal estándar y $z_{0.975}\approx1.96$.
+
+\problema{1}{Una prueba por reemplazo gaussiano}{6}
+Sean $Y_k$ i.i.d. con $\EE Y_1=0$ y $\EE Y_1^2=1$. En un espacio producto tome $G_k$ i.i.d. $\Normal(0,1)$, independientes de todas las $Y_k$. Defina
+\[
+H_{n,k}=\frac{Y_1+\cdots+Y_k+G_{k+1}+\cdots+G_n}{\sqrt n},
+\qquad 0\le k\le n,
+\]
+con sumas vacías iguales a cero. Sea $f\in C^2(\RR)$, con $f,f',f''$ acotadas y $f''$ uniformemente continua, y ponga
+\[
+\omega_f(\delta)=
+\sup_{|x-y|\le\delta}|f''(x)-f''(y)|,\qquad \delta\ge0.
+\]
+\begin{enumerate}
+\item Pruebe $\omega_f(\delta)\to0$ cuando $\delta\downarrow0$ y
+$\omega_f(\delta)\le2\|f''\|_\infty$. Obtenga, por Taylor con resto integral,
+\[
+\left|f(x+h)-f(x)-hf'(x)-\frac{h^2}{2}f''(x)\right|
+\le\frac{h^2}{2}\omega_f(|h|).
+\] \puntos{1}
+\item Para cada reemplazo de $G_k$ por $Y_k$, separe la suma que no contiene la variable reemplazada. Justifique que los términos lineales y cuadráticos tienen las mismas esperanzas. Escriba la identidad telescópica que compara $\EE f(H_{n,n})$ con $\EE f(H_{n,0})$. \puntos{2}
+\item Deduzca una cota para esa diferencia en términos de
+$\EE[Y_1^2\omega_f(|Y_1|/\sqrt n)]$ y
+$\EE[G_1^2\omega_f(|G_1|/\sqrt n)]$.
+Pruebe que tiende a cero usando solo segundos momentos. \puntos{2}
+\item Aplique lo anterior a $f(x)=\cos(tx)$ y $f(x)=\sin(tx)$ para cada $t$ fijo. Use la ley de $H_{n,0}$ y Lévy para concluir el TCL de $n^{-1/2}\sum_{k=1}^nY_k$. Exprese el resultado para $X_k=m+\sigma Y_k$, $\sigma>0$. \puntos{1}
+\end{enumerate}
+
+\newpage
+{\Large\bfseries\color{uni}Agrupación e inversión de sumas}\par
+\problema{2}{Pesos alternados y una observación adicional}{4}
+Sean $X_k$ i.i.d. con media cero y varianza uno. Defina
+\[
+V_n=\frac{\sum_{k=1}^n(X_{2k-1}+2X_{2k})}{\sqrt{5n}},
+\qquad
+W_n=V_n+\frac{X_{2n+1}}{\sqrt{5n}}.
+\]
+\begin{enumerate}
+\item Calcule las medias y varianzas de $V_n$ y $W_n$. Explique por qué los sumandos individuales $X_{2k-1}$ y $2X_{2k}$ no tienen la misma ley. \puntos{1}
+\item Proponga una agrupación que permita aplicar directamente el TCL i.i.d. y determine la ley límite de $V_n$. Justifique la independencia de los bloques. \puntos{1}
+\item Pruebe que $W_n$ tiene el mismo límite usando funciones características y la independencia de la observación adicional. No se admite citar un teorema sobre perturbaciones que convergen a cero. \puntos{1}
+\item Si el numerador de $V_n$ se divide entre $\sqrt{2n}$, ¿cuál es la ley límite? Justifique su respuesta e identifique la diferencia entre contar observaciones y sumar sus varianzas. \puntos{1}
+\end{enumerate}
+
+\problema{3}{Un conteo obtenido por inversión}{3}
+Sean $E_k$ i.i.d. exponenciales de tasa $\lambda>0$, con densidad
+$\lambda e^{-\lambda x}\mathbf1_{(0,\infty)}(x)$. Ponga
+\[
+S_0=0,\qquad S_j=\sum_{k=1}^jE_k,\qquad
+N(t)=\max\{j\ge0:S_j\le t\},\qquad t\ge0.
+\]
+Demuestre
+\[
+\frac{N(t)-\lambda t}{\sqrt{\lambda t}}\Rightarrow\Normal(0,1)
+\qquad(t\to\infty)
+\]
+sin utilizar la ley Poisson de $N(t)$ ni calcular su función característica.
+\begin{enumerate}
+\item Justifique que $N(t)$ es finito casi seguramente (puede usar la ley fuerte). Para $x\in\RR$ fijo, tome
+$k_t=\lfloor\lambda t+x\sqrt{\lambda t}\rfloor$ y pruebe, para $t$ grande,
+$\{N(t)\le k_t\}=\{S_{k_t+1}>t\}$. \puntos{1}
+\item Calcule los momentos de $E_1$, aplique el TCL a $S_j$ y pruebe que
+\[
+a_t=\frac{\lambda t-(k_t+1)}{\sqrt{k_t+1}}\longrightarrow-x.
+\] \puntos{1}
+\item Justifique el paso al límite con el umbral móvil $a_t$ acotándolo entre $-x-\eta$ y $-x+\eta$, para $\eta>0$. Concluya el resultado del conteo. \puntos{1}
+\end{enumerate}
+
+\newpage
+{\Large\bfseries\color{uni}Diseño de simulación y alcance del TCL}\par
+\problema{4}{Montecarlo con parejas antitéticas}{4}
+Para estimar $I=\int_0^1e^u\,du$, se comparan dos procedimientos que usan $2n$ evaluaciones de la función exponencial. Todas las variables $U_j$ y $V_k$ son uniformes en $[0,1]$ y mutuamente independientes:
+\[
+M_{2n}=\frac1{2n}\sum_{j=1}^{2n}e^{U_j},\qquad
+A_n=\frac1n\sum_{k=1}^n Q_k,\quad
+Q_k=\frac{e^{V_k}+e^{1-V_k}}{2}.
+\]
+\begin{enumerate}
+\item Calcule $I$ y $v=\Var(e^{U_1})$. \puntos{1}
+\item Calcule $\EE Q_1$, $c=\Cov(e^{V_1},e^{1-V_1})$ y $w=\Var(Q_1)$. Distinga la dependencia dentro de una pareja de la independencia entre parejas. \puntos{1}
+\item Formule los TCL de $M_{2n}$ y $A_n$ con varianzas explícitas. Compare sus varianzas y los semianchos normales nominales al $95\%$ con el mismo costo $2n$. Evalúe la razón $\Var(A_n)/\Var(M_{2n})$. \puntos{1}
+\item Obtenga el menor entero $n$ que satisface, para cada procedimiento, la regla normal de semiancho a lo sumo $0.01$. Use $z=1.96$ para esta regla. Informe también el número de evaluaciones y explique el alcance aproximado del cálculo. \puntos{1}
+\end{enumerate}
+
+\problema{5}{Eventos raros: un límite que no es normal}{3}
+Para cada $n\ge2$, sean $I_{n,1},\ldots,I_{n,n}$ independientes, Bernoulli de parámetro $1/n$. No se supone relación entre filas. Defina
+\[
+B_n=\sum_{k=1}^nI_{n,k},\qquad
+Z_n=\frac{B_n-\EE B_n}{\sqrt{\Var(B_n)}}.
+\]
+\begin{enumerate}
+\item Calcule $\EE B_n$, $\Var(B_n)$ y la expresión explícita de $Z_n$. ¿Por qué no se puede aplicar directamente el TCL i.i.d. de las notas a estas filas? \puntos{1}
+\item Calcule $\varphi_{Z_n}(t)$ y determine su límite para cada $t$. Identifique la ley límite mediante Lévy. Puede usar el lema de potencias complejas de las notas, sin demostrarlo nuevamente. \puntos{1}
+\item Calcule $\lim_{n\to\infty}\PP(Z_n\le-1/2)$ y compárelo con $\Phi(-1/2)$. Explique qué refuta este ejemplo respecto de la afirmación \emph{un número grande de sumandos independientes siempre produce una aproximación normal}. \puntos{1}
+\end{enumerate}
+
+\vfill
+{\small\textbf{Criterio de evaluación.} Se califica el desarrollo de los argumentos nuevos pedidos en cada inciso. Los resultados de las notas sirven como herramientas; su reproducción no reemplaza las soluciones.}
+\end{document}

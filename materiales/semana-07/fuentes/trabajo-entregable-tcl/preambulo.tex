@@ -1,0 +1,36 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-noshorthands]{babel}
+\usepackage{lmodern,amsmath,amssymb,amsthm,mathtools}
+\usepackage{graphicx,xcolor,enumitem,booktabs,array}
+\usepackage[left=22mm,right=22mm,top=23mm,bottom=22mm,headheight=15pt]{geometry}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\definecolor{uni}{RGB}{120,16,24}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\textcolor{uni}{UNI \textperiodcentered{} Escuela Profesional de Matemática}}
+\fancyhead[R]{\small CM4H1 \textperiodcentered{} 2026-2}
+\fancyfoot[L]{\footnotesize Oswaldo Velásquez Castañón}
+\fancyfoot[R]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0.35pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\emergencystretch}{2em}
+\setlist[enumerate]{label=\alph*),leftmargin=7mm,itemsep=4pt,topsep=4pt}
+\newcommand{\PP}{\mathbb P}
+\newcommand{\EE}{\mathbb E}
+\newcommand{\RR}{\mathbb R}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Cov}{\operatorname{Cov}}
+\newcommand{\Normal}{\mathcal N}
+\newcommand{\puntos}[1]{\unskip\nobreak\hfill\mbox{\textnormal{\small[#1~\ifnum#1=1 punto\else puntos\fi]}}}
+\newcommand{\problema}[3]{\par\vspace{4pt}{\large\bfseries\color{uni}#1. #2}\puntos{#3}\par\vspace{2pt}}
+\newcommand{\encabezado}[2]{%
+  \begin{minipage}{24mm}\includegraphics[width=20mm]{logo.png}\end{minipage}%
+  \begin{minipage}{\dimexpr\textwidth-25mm\relax}
+    {\LARGE\bfseries\color{uni}#1\par}
+    \vspace{3pt}{\large Semana 7 \textperiodcentered{} Teorema central del límite\par}
+    \vspace{3pt}{\small Teoría de la Probabilidad \textperiodcentered{} #2\par}
+  \end{minipage}\par\vspace{5pt}\textcolor{uni}{\rule{\textwidth}{0.6pt}}\par}
+\newcommand{\criterio}[1]{\par\begingroup\small\textbf{Criterio de calificación.} #1\par\endgroup}
+\hypersetup{pdfauthor={Oswaldo Velásquez Castañón},pdftitle={Trabajo entregable \textperiodcentered{} Semana 7 \textperiodcentered{} TCL}}
