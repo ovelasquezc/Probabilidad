@@ -27,7 +27,7 @@ Material para estudiantes de la Escuela Profesional de Matemática de la Univers
 | 5 | [Sumas, máximos y ley fuerte](materiales/semana-05/01-notas-semana-05.pdf) | [Práctica](materiales/semana-05/02-practica-semana-05.pdf) |
 | 6 | [Convergencia débil y características](materiales/semana-06/01-notas-semana-06.pdf) | [Trabajo autónomo](materiales/semana-06/02-trabajo-autonomo-semana-06.pdf) |
 | 7 | [Teorema de Lévy y TCL](materiales/semana-07/01-notas-semana-07.pdf) | [Práctica](materiales/semana-07/02-practica-semana-07.pdf) · [Trabajo entregable sobre TCL](materiales/semana-07/03-trabajo-entregable-tcl-semana-07.pdf) · [Editables](materiales/semana-07/03-trabajo-entregable-tcl-semana-07-editables.zip) |
-| 8 | [Esperanza condicional](materiales/semana-08/01-notas-semana-08.pdf) | [Práctica](materiales/semana-08/02-practica-semana-08.pdf) · [Práctica, versión 2](materiales/semana-08/02-practica-semana-08-v2.pdf) |
+| 8 | [Esperanza condicional](materiales/semana-08/01-notas-semana-08.pdf) | [Práctica](materiales/semana-08/02-practica-semana-08.pdf) |
 | 9 | [Predicción y varianza total](materiales/semana-09/01-notas-semana-09.pdf) | [Trabajo autónomo](materiales/semana-09/02-trabajo-autonomo-semana-09.pdf) |
 | 10 | [Vectores gaussianos](materiales/semana-10/01-notas-semana-10.pdf) | [Práctica](materiales/semana-10/02-practica-semana-10.pdf) |
 | 11 | [Muestras normales y leyes exactas](materiales/semana-11/01-notas-semana-11.pdf) | [Trabajo autónomo](materiales/semana-11/02-trabajo-autonomo-semana-11.pdf) |
