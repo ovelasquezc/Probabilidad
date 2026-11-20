@@ -29,7 +29,7 @@ Material para estudiantes de la Escuela Profesional de Matemática de la Univers
 | 7 | [Teorema de Lévy y TCL](materiales/semana-07/01-notas-semana-07.pdf) | [Práctica](materiales/semana-07/02-practica-semana-07.pdf) · [Trabajo entregable sobre TCL](materiales/semana-07/03-trabajo-entregable-tcl-semana-07.pdf) · [Editables](materiales/semana-07/03-trabajo-entregable-tcl-semana-07-editables.zip) |
 | 8 | [Esperanza condicional](materiales/semana-08/01-notas-semana-08.pdf) | [Práctica](materiales/semana-08/02-practica-semana-08.pdf) |
 | 9 | [Predicción y varianza total](materiales/semana-09/01-notas-semana-09.pdf) | [Trabajo autónomo](materiales/semana-09/02-trabajo-autonomo-semana-09.pdf) |
-| 10 | [Vectores gaussianos](materiales/semana-10/01-notas-semana-10.pdf) | [Práctica](materiales/semana-10/02-practica-semana-10.pdf) |
+| 10 | [Vectores gaussianos](materiales/semana-10/01-notas-semana-10.pdf) · Actualizado el 20/11/2026 | [Práctica](materiales/semana-10/02-practica-semana-10.pdf) |
 | 11 | [Muestras normales y leyes exactas](materiales/semana-11/01-notas-semana-11.pdf) | [Trabajo autónomo](materiales/semana-11/02-trabajo-autonomo-semana-11.pdf) |
 | 12 | [Integrabilidad uniforme y martingalas](materiales/semana-12/01-notas-semana-12.pdf) | [Práctica](materiales/semana-12/02-practica-semana-12.pdf) |
 | 13 | [Parada y desigualdades maximales](materiales/semana-13/01-notas-semana-13.pdf) | [Trabajo autónomo](materiales/semana-13/02-trabajo-autonomo-semana-13.pdf) |
